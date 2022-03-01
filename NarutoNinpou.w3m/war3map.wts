@@ -106,28 +106,73 @@ STRING 17
 (Mission)
 }
 
+STRING 18
+// Destructibles: B02V (Cloth worn by the most important ninja of Iwagakure.|n|cff32cd32+70 all stats|n), Name (Name)
+{
+Cloth worn by the most important ninja of Iwagakure.|n|cff32cd32+70 all stats|n+20 taijutsu
++100 damage
++200 armor
+- Reduce damage taken from normal jutsus by 50% |cffff0000(does not stack)|cff32cd32|n- Fortitude Aura (passive, +25 armor to nearby allies)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 19
+// Items: I003 (Jounin Cloth), Ubertip (Tooltip - Extended)
+{
+Cloth given to Jounins of the village.|n|cff32cd32+30 All Stats|n+30 Damage|n+15 Armor|n- Reduce Normal Damage taken from jutsus by 15%|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 20
+// Items: I003 (Jounin Cloth), Description (Description)
+{
+Cloth given to Jounins of the village.|n|cff32cd32+30 All Stats|n+30 Damage|n+15 Armor|n- Reduce Normal Damage taken from jutsus by 15%|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 21
+// Items: I004 (Genin Cloth), Ubertip (Tooltip - Extended)
+{
+Cloth given to graduated children from the Ninja Academy.|n|cff32cd32+10 All Stats|n+10 Damage|n+5 Armor|n- Reduce Normal Damage taken from jutsus by 5%|n|cffff0000Item Type: Cloth|r
+}
+
 STRING 22
-// Items: hbth (Uchiha Shield), Hotkey (Hotkey)
+// Items: I009 (Upgrade Cloth), Hotkey (Hotkey)
 {
 E
 }
 
 STRING 23
-// Items: oven (|cff8b4600Spirit of Earth|r), Hotkey (Hotkey)
+// Items: I00U (Genjutsu Trainning Book), Hotkey (Hotkey)
 {
 E
 }
 
+STRING 24
+// Items: I004 (Genin Cloth), Description (Description)
+{
+Cloth given to graduated children from the Ninja Academy.|n|cff32cd32+10 All Stats|n+10 Damage|n+5 Armor|n- Reduce Normal Damage taken from jutsus by 5%|n|cffff0000Item Type: Cloth|r
+}
+
 STRING 25
-// Items: shas (Speed Pills), Hotkey (Hotkey)
+// Items: I00S (Taijutsu Trainning Book), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 26
-// Items: gsou (Soulabsorb Stone), Hotkey (Hotkey)
+// Items: I00V (Akatsuki Cloth), Hotkey (Hotkey)
 {
 Q
+}
+
+STRING 27
+// Items: I005 (Chunnin Cloth), Ubertip (Tooltip - Extended)
+{
+Cloth given to ninjas that passed the Chunnin Exams.|n|cff32cd32+20 All Stats|n+20 Damage|n+10 Armor|n- Reduce Normal Damage taken from jutsus by 10%|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 28
+// Items: I005 (Chunnin Cloth), Description (Description)
+{
+Cloth given to ninjas that passed the Chunnin Exams.|n|cff32cd32+20 All Stats|n+20 Damage|n+10 Armor|n- Reduce Normal Damage taken from jutsus by 10%|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 29
@@ -136,10 +181,82 @@ STRING 29
 Combine: The Heaven Mirror
 }
 
+STRING 30
+// Items: I00V (Akatsuki Cloth), Ubertip (Tooltip - Extended)
+{
+Cloth worn by Akatsuki members. Allows you to become invisible.|n|cff32cd32+500 HP|n+15 All Stats|n|cff87ceeb- Akatsuki Cloak (active, cd: 10s):|nMakes the caster invisible until you move|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 31
+// Items: I00V (Akatsuki Cloth), Description (Description)
+{
+Cloth worn by Akatsuki members. Allows you to become invisible.|n|cff32cd32+500 HP|n+15 All Stats|n|cff87ceeb- Akatsuki Cloak (active, cd: 10s):|nMakes the caster invisible until you move|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 32
+// Items: I01U (Anbu Cloth), Name (Name)
+{
+Anbu Cloth
+}
+
+STRING 33
+// Items: I01U (Anbu Cloth), Ubertip (Tooltip - Extended)
+{
+Cloth worn by members of the Anbu.|n|cff32cd32+40 All Stats|n+40 Damage|n+20 Armor|n- Reduce Normal Damage taken from jutsus by 20%|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 34
+// Items: I01U (Anbu Cloth), Description (Description)
+{
+Cloth worn by members of the Anbu.|n|cff32cd32+40 All Stats|n+40 Damage|n+20 Armor|n- Reduce Normal Damage taken from jutsus by 20%|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 35
+// Items: I01V (Sannin Cloth), Ubertip (Tooltip - Extended)
+{
+Cloth worn by the legendary Sannin.|n|cff32cd32+50 All Stats|n+50 Damage|n+25 Armor|n- Reduce damage taken from normal jutsus by 25%|cff32cd32|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 36
+// Items: I01V (Sannin Cloth), Description (Description)
+{
+Cloth worn by the legendary Sannin.|n|cff32cd32+50 All Stats|n+50 Damage|n+25 Armor|n- Reduce damage taken from normal jutsus by 25%|cff32cd32|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 37
+// Items: I038 (|cffff0000Kage Robe|r), Ubertip (Tooltip - Extended)
+{
+Cloth worn by the most important ninja of the village.|n|cff32cd32+70 All Stats|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|cffff0000Item Type: Cloth|r
+}
+
+STRING 38
+// Items: I038 (|cffff0000Kage Robe|r), Description (Description)
+{
+Cloth worn by the most important ninja of the village.|n|cff32cd32+70 All Stats|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|cffff0000Item Type: Cloth|r
+}
+
+STRING 39
+// Items: I03K (|cffff0000Hokage Robe|r), Ubertip (Tooltip - Extended)
+{
+Cloth worn by the Hokage.|n|cff32cd32+70 All Stats|n+30 Taijutsu|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- Inspiration Aura (15 stats to all nearby allies)|n- Splash Damage (passive, 50 damage bonus in 300 radius)|n|cffff0000Item Type: Cloth|r
+}
+
 STRING 40
-// Items: mcou (Mirrored Shield), Hotkey (Hotkey)
+// Items: I02R (Bomb), Hotkey (Hotkey)
 {
 E
+}
+
+STRING 41
+// Items: I03K (|cffff0000Hokage Robe|r), Description (Description)
+{
+Cloth worn by the Hokage.|n|cff32cd32+70 All Stats|n+30 Taijutsu|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- Inspiration Aura (15 stats to all nearby allies)|n- Splash Damage (passive, 50 damage bonus in 300 radius)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 42
+// Items: I03L (|cff53a4ffMizukage Robe|r), Ubertip (Tooltip - Extended)
+{
+Cloth worn by the Mizukage.|n|cff32cd32+70 All Stats|n+30 Genjutsu|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- 20% slow aura in 800 range|n- Chilling Attack (passive, 50% slow for 1.5s)|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 43
@@ -149,39 +266,183 @@ STRING 43
 }
 
 STRING 44
-// Items: pomn (Ninja Net), Hotkey (Hotkey)
+// Items: I03U (Combine: Akatsuki Set), Hotkey (Hotkey)
 {
 E
 }
 
+STRING 45
+// Items: I03L (|cff53a4ffMizukage Robe|r), Description (Description)
+{
+Cloth worn by the Mizukage.|n|cff32cd32+70 All Stats|n+30 Genjutsu|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- 20% slow aura in 800 range|n- Chilling Attack (passive, 50% slow for 1.5s)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 46
+// Items: I03M (|cff8b4600Tsuchikage Robe|r), Ubertip (Tooltip - Extended)
+{
+Cloth worn by the Tsuchikage.|n|cff32cd32+70 All Stats|n+20 Taijutsu|n+100 Damage|n+200 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- Fortitude Aura (passive, +25 armor to nearby allies)|n- Bash (passive, 15% chance to stun for 1s)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 47
+// Items: I03M (|cff8b4600Tsuchikage Robe|r), Description (Description)
+{
+Cloth worn by the Tsuchikage.|n|cff32cd32+70 All Stats|n+20 Taijutsu|n+100 Damage|n+200 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- Fortitude Aura (passive, +25 armor to nearby allies)|n- Bash (passive, 15% chance to stun for 1s)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 48
+// Items: I03N (|cffffff00Raikage Robe|r), Ubertip (Tooltip - Extended)
+{
+Cloth worn by the Raikage.|n|cff32cd32+70 All Stats|n+30 Ninjutsu|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- 20% movespeed aura to all allies in 600 range|n- Chain Lightning (passive, 20% chance to deal 300 damage)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 49
+// Items: I03N (|cffffff00Raikage Robe|r), Description (Description)
+{
+Cloth worn by the Raikage.|n|cff32cd32+70 All Stats|n+30 Ninjutsu|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- 20% movespeed aura to all allies in 600 range|n- Chain Lightning (passive, 20% chance to deal 300 damage)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 50
+// Items: I03O (Kazekage Robe), Ubertip (Tooltip - Extended)
+{
+Cloth worn by Kazekage.|n|cff32cd32+70 All Stats|n+20 Ninjutsu|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- Critical Strike (passive, 15% to deal 6 x damage)|n- Evasion Aura (passive, 25% to evade attacks)|n- Spell Critical Strike (passive, 10% for spells to deal 20% more damage)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 51
+// Items: I03O (Kazekage Robe), Description (Description)
+{
+Cloth worn by Kazekage.|n|cff32cd32+70 All Stats|n+20 Ninjutsu|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- Critical Strike (passive, 15% to deal 6 x damage)|n- Evasion Aura (passive, 25% to evade attacks)|n- Spell Critical Strike (passive, 10% for spells to deal 20% more damage)|n|cffff0000Item Type: Cloth|r
+}
+
 STRING 52
-// Items: pres (Attack Pills), Hotkey (Hotkey)
+// Items: I05D (S-Rank Mission), Hotkey (Hotkey)
 {
 E
 }
 
 STRING 53
-// Items: I009 (Upgrade Cloth), Hotkey (Hotkey)
+// Items: I060 (Defense Pills), Hotkey (Hotkey)
 {
 E
 }
 
+STRING 54
+// Items: I03P (|cffc600ffOtokage Robe|r), Ubertip (Tooltip - Extended)
+{
+Cloth worn by Orochimaru.|n|cff32cd32+70 All Stats|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- Corrosive Attack (passive, -10 armor)|n- Magic Shield (passive, cd: 50s)|n- Corrosion Aura (-10 armor to nearby enemies)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 55
+// Items: I03P (|cffc600ffOtokage Robe|r), Description (Description)
+{
+Cloth worn by Orochimaru.|n|cff32cd32+70 All Stats|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- Corrosive Attack (passive, -10 armor)|n- Magic Shield (passive, cd: 50s)|n- Corrosion Aura (-10 armor to nearby enemies)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 56
+// Items: I03T (|cffb04453Akatsuki Set|r), Ubertip (Tooltip - Extended)
+{
+A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 HP|n+40 to All Stats|n- Bijuu hunter (passive): Once you have completed a bijuu hunt, get +4 extra stats.|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cff87ceeb- Assassin Focus (active, 60s):|n+15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 57
+// Items: I03T (|cffb04453Akatsuki Set|r), Description (Description)
+{
+A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 HP|n+40 to All Stats|n- Bijuu hunter (passive): Once you have completed a bijuu hunt, get +4 extra stats.|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cff87ceeb- Assassin Focus (active, 60s):|n+15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 58
+// Items: I054 (Sanbi's Hardened Skin), Ubertip (Tooltip - Extended)
+{
+Armor made from the three-tails' skin.|n|cff32cd32+25 Armor|n+20 All Stats|n- Reflect 25% damage received from melee auto attacks (passive)|n- Reduce damage taken from normal jutsus by 5%|cff87ceeb|n- Sanbi's Shell (active, 60s):|nMake the caster immune to negative spells during 4 seconds and reflects 50% of damage taken.|cff32cd32|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 59
+// Items: I054 (Sanbi's Hardened Skin), Description (Description)
+{
+Armor made from the three-tails' skin.|n|cff32cd32+25 Armor|n+20 All Stats|n- Reflect 25% damage received from melee auto attacks (passive)|n- Reduce damage taken from normal jutsus by 5%|cff87ceeb|n- Sanbi's Shell (active, 60s):|nMake the caster immune to negative spells during 4 seconds and reflects 50% of damage taken.|cff32cd32|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 60
+// Items: I055 (Sanbi's Impenetrable Skin), Ubertip (Tooltip - Extended)
+{
+Armor made from the three-tails' skin.|n|cff32cd32+50 Armor|n+20 All Stats|n- Reflect 50% damage received from melee auto attacks (passive)|n- Reduce damage taken from normal jutsus by 10%|cff87ceeb|n- Sanbi's Shell (active, 60s):|nMake the caster immune to negative spells during 4 seconds and reflects 50% of damage taken.|cff32cd32|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 61
+// Items: I055 (Sanbi's Impenetrable Skin), Description (Description)
+{
+Armor made from the three-tails' skin.|n|cff32cd32+50 Armor|n+20 All Stats|n- Reflect 50% damage received from melee auto attacks (passive)|n- Reduce damage taken from normal jutsus by 10%|cff87ceeb|n- Sanbi's Shell (active, 60s):|nMake the caster immune to negative spells during 4 seconds and reflects 50% of damage taken.|cff32cd32|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 62
+// Items: I05H (Medical Ninja Cloth), Ubertip (Tooltip - Extended)
+{
+Cloth used by all medical ninjas. It greatly enhances medical abilities.|n|cff32cd32+20 All Stats|n+20 Armor|n- Reduce Normal Damage taken from jutsus by 10%|n- Increase all healing effects by 50% (passive)|n|cff87ceeb- Heal (active, 60s): Recovers 500 hit points over 5s|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 63
+// Items: I05H (Medical Ninja Cloth), Description (Description)
+{
+Cloth used by all medical ninjas. It greatly enhances medical abilities.|n|cff32cd32+20 All Stats|n+20 Armor|n- Reduce Normal Damage taken from jutsus by 10%|n- Increase all healing effects by 50% (passive)|n|cff87ceeb- Heal (active, 60s): Recovers 500 hit points over 5s|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 64
+// Items: I05I (|cff6bfe62Medical Ninja Set|r), Ubertip (Tooltip - Extended)
+{
+A set of medical ninja items used to help shinobis in battle.|n|cff32cd32+30 All Stats|n+30 Armor|n- Reduce Normal Damage taken from jutsus by 25%|n- Increase all healing effects by 50% (passive, area)|n- Medical Regeneration (passive): Increase all nearby allies within 900 radius movement speed by 15% and life regeneration by 300%|n|cff87ceeb- Greater Medical Sphere (active, 150s):|nRecovers 4% hp of all allies around 600 radius per second during 10 seconds and reduces damage taken by 50%|n|cffff0000Item Type: Cloth|r|n|cffff0000Careful: Only one member per team can carry it|r
+}
+
+STRING 65
+// Items: I05I (|cff6bfe62Medical Ninja Set|r), Description (Description)
+{
+A set of medical ninja items used to help shinobis in battle.|n|cff32cd32+30 All Stats|n+30 Armor|n- Reduce Normal Damage taken from jutsus by 25%|n- Increase all healing effects by 50% (passive, area)|n- Medical Regeneration (passive): Increase all nearby allies within 900 radius movement speed by 15% and life regeneration by 300%|n|cff87ceeb- Greater Medical Sphere (active, 150s):|nRecovers 4% hp of all allies around 600 radius per second during 10 seconds and reduces damage taken by 50%|n|cffff0000Item Type: Cloth|r|n|cffff0000Careful: Only one member per team can carry it|r
+}
+
+STRING 66
+// Items: I05Q (|cffa19e96Juubi's Skin|r), Ubertip (Tooltip - Extended)
+{
+An armor made from the ten-tails, which has the hardest skin in the world.|n|cff32cd32+100 Armor|n+40 All Stats|n+35% evasion|n- Reflect 50% damage received from melee auto attacks (passive)|n- Reduce damage taken from normal jutsus by 30%|cff87ceeb|n- Juubi's Shell (active, 60s):|nMake the caster immune to negative spells and auto-attacks during 6 seconds and reflects 50% of damage taken.|cff32cd32|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 67
+// Items: I05Q (|cffa19e96Juubi's Skin|r), Description (Description)
+{
+An armor made from the ten-tails, which has the hardest skin in the world.|n|cff32cd32+100 Armor|n+40 All Stats|n+35% evasion|n- Reflect 50% damage received from melee auto attacks (passive)|n- Reduce damage taken from normal jutsus by 30%|cff87ceeb|n- Juubi's Shell (active, 60s):|nMake the caster immune to negative spells and auto-attacks during 6 seconds and reflects 50% of damage taken.|cff32cd32|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 68
+// Items: I02Z (Sage Robe), Ubertip (Tooltip - Extended)
+{
+Cloth worn by Rikuudou Sennin himself.|n|cff32cd32+90 All Stats|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- Reduce damage taken by nearby allies by 30% (doesn't affect the user)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 69
+// Items: I02Z (Sage Robe), Description (Description)
+{
+Cloth worn by Rikuudou Sennin himself.|n|cff32cd32+90 All Stats|n+100 Damage|n+50 Armor|n- Reduce Normal Damage taken from jutsus by 50%|n- Reduce damage taken by nearby allies by 30% (doesn't affect the user)|n|cffff0000Item Type: Cloth|r
+}
+
 STRING 70
-// Items: wild (Scroll of Summoning), Ubertip (Tooltip - Extended)
+// Items: I05U (Scroll of Summoning), Ubertip (Tooltip - Extended)
 {
 Summon a Medical Slug to help you in the fight.
 }
 
 STRING 71
-// Items: wild (Scroll of Summoning), Name (Name)
+// Items: I05U (Scroll of Summoning), Name (Name)
 {
 Scroll of Summoning
 }
 
 STRING 72
-// Items: fwss (Ninja Bandana), Name (Name)
+// Items: I088 (Ninja Bandana), Name (Name)
 {
 Ninja Bandana
+}
+
+STRING 73
+// Items: I077 (|cffb04453Akatsuki Leader Set|r), Ubertip (Tooltip - Extended)
+{
+A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 HP|n+40 All Stats|n+30 Taijustu|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cff87ceeb- Assassin Focus (active, 60s):|n+15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 74
@@ -190,56 +451,254 @@ STRING 74
 Purchase Akatsuki Cloth [|cffffcc00Q|r]
 }
 
+STRING 75
+// Items: I077 (|cffb04453Akatsuki Leader Set|r), Description (Description)
+{
+A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 HP|n+40 All Stats|n+30 Taijustu|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cff87ceeb- Assassin Focus (active, 60s):|n+15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n|cffff0000Item Type: Cloth|r
+}
+
 STRING 76
 // Items: I006 (|cff106246The Heaven Mirror|r), Hotkey (Hotkey)
 {
 T
 }
 
+STRING 77
+// Items: I078 (|cffb04453Akatsuki Leader Set|r), Ubertip (Tooltip - Extended)
+{
+A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 HP|n+40 All Stats|n+30 Ninjutsu|n- Assassin Focus (active, Grants +15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 78
+// Items: I078 (|cffb04453Akatsuki Leader Set|r), Description (Description)
+{
+A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 HP|n+40 All Stats|n+30 Ninjutsu|n- Assassin Focus (active, Grants +15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 79
+// Items: I079 (|cffb04453Akatsuki Leader Set|r), Ubertip (Tooltip - Extended)
+{
+A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 HP|n+40 All Stats|n+30 Genjutsu|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cff87ceeb- Assassin Focus (active, 60s):|n+15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 80
+// Items: I079 (|cffb04453Akatsuki Leader Set|r), Description (Description)
+{
+A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 HP|n+40 All Stats|n+30 Genjutsu|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cff87ceeb- Assassin Focus (active, 60s):|n+15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 81
+// Items: I02U (Sanbi's Skin), Ubertip (Tooltip - Extended)
+{
+Armor made from the three-tails' skin.|n|cff32cd32+10 Armor|n+15 All Stats|n- Reduce damage taken from normal jutsus by 5%|r|n|cff87ceeb- Sanbi's Shell (active, 60s):|nMake the caster immune to negative spells during 4 seconds and reflects 50% of damage taken.|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 82
+// Items: I02U (Sanbi's Skin), Description (Description)
+{
+Armor made from the three-tails' skin.|n|cff32cd32+10 Armor|n+15 All Stats|n- Reduce damage taken from normal jutsus by 5%|r|n|cff87ceeb- Sanbi's Shell (active, 60s):|nMake the caster immune to negative spells during 4 seconds and reflects 50% of damage taken.|n|cffff0000Item Type: Cloth|r
+}
+
+STRING 83
+// Items: I011 (|cffec6200Explosive Kunai|r), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 800|n|cff32cd32Damage:|r |cff87ceeb7 x Taijutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 300|n|cff32cd32Cooldown:|r |cff87ceeb50s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 84
+// Items: I011 (|cffec6200Explosive Kunai|r), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 800|n|cff32cd32Damage:|r |cff87ceeb7 x Taijutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 300|n|cff32cd32Cooldown:|r |cff87ceeb50s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
 STRING 85
-// Items: pinv (Substitution Wood), Hotkey (Hotkey)
+// Items: I020 (|cffec6200Oil|r), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 86
-// Items: modt (Bingo Book), Hotkey (Hotkey)
+// Items: I037 (Kage Hat), Hotkey (Hotkey)
 {
 Q
 }
 
+STRING 87
+// Items: I012 (|cffFFFFE0Fuuma Shuriken|r), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 950|n|cff32cd32Damage:|r |cff87ceeb7 x Ninjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 810 length x 220 width|n|cff32cd32Cooldown:|r |cff87ceeb50s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 88
+// Items: I012 (|cffFFFFE0Fuuma Shuriken|r), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 950|n|cff32cd32Damage:|r |cff87ceeb7 x Ninjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 810 length x 220 width|n|cff32cd32Cooldown:|r |cff87ceeb50s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 89
+// Items: I013 (Explosive Tag Package), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy, Ally, Building|n|cff32cd32Casting Range:|r 400|n|cff32cd32Damage:|r |cff87ceeb1000|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 400|n|cff32cd32Effect:|r Explodes upon cast|n|cff32cd32Cooldown:|r |cff87ceeb6s|r|n|cff32cd32Description:|r Contains |cff87ceeb8|r explosive tags|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 90
+// Items: I013 (Explosive Tag Package), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy, Ally, Building|n|cff32cd32Casting Range:|r 400|n|cff32cd32Damage:|r |cff87ceeb1000|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 400|n|cff32cd32Effect:|r Explodes upon cast|n|cff32cd32Cooldown:|r |cff87ceeb6s|r|n|cff32cd32Description:|r Contains |cff87ceeb8|r explosive tags|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 91
+// Items: I00X (|cff39e30cPoison Pills|r), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 650|n|cff32cd32Damage:|r |cff87ceeb220|r per second (Non Lethal)|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 300|n|cff32cd32Effect:|r |cff87ceeb35%|r Slow, Damage over |cff87ceeb10s|r|n|cff32cd32Cooldown:|r |cff87ceeb40s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 92
+// Items: I00X (|cff39e30cPoison Pills|r), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 650|n|cff32cd32Damage:|r |cff87ceeb220|r per second (Non Lethal)|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 300|n|cff32cd32Effect:|r |cff87ceeb35%|r Slow, Damage over |cff87ceeb10s|r|n|cff32cd32Cooldown:|r |cff87ceeb40s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 93
+// Items: I020 (|cffec6200Oil|r), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 800|n|cff32cd32Damage:|r |cff87ceeb340|r per second|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 400|n|cff32cd32Effect:|r Damage over |cff87ceeb4s|r|n|cff32cd32Cooldown:|r |cff87ceeb30s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 94
+// Items: I020 (|cffec6200Oil|r), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 800|n|cff32cd32Damage:|r |cff87ceeb340|r per second|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 400|n|cff32cd32Effect:|r Damage over |cff87ceeb4s|r|n|cff32cd32Cooldown:|r |cff87ceeb30s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 95
+// Items: I001 (|cffFFFFE0Senbons Dance|r), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 600|n|cff32cd32Damage:|r |cff87ceeb7 x Genjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 300|n|cff32cd32Cooldown:|r |cff87ceeb50s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 96
+// Items: I001 (|cffFFFFE0Senbons Dance|r), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 600|n|cff32cd32Damage:|r |cff87ceeb7 x Genjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 300|n|cff32cd32Cooldown:|r |cff87ceeb50s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 97
+// Items: I02Q (Timed Explosive Tag), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy, Ally, Building|n|cff32cd32Casting Range:|r 600|n|cff32cd32Damage:|r |cff87ceeb1000|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 400|n|cff32cd32Effect:|r Explodes after |cff87ceeb3s|r|n|cff32cd32Cooldown:|r |cff87ceeb40s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 98
+// Items: I02Q (Timed Explosive Tag), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy, Ally, Building|n|cff32cd32Casting Range:|r 600|n|cff32cd32Damage:|r |cff87ceeb1000|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 400|n|cff32cd32Effect:|r Explodes after |cff87ceeb3s|r|n|cff32cd32Cooldown:|r |cff87ceeb40s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 99
+// Items: I02R (Bomb), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 600|n|cff32cd32Damage:|r |cff87ceeb800|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 300|n|cff32cd32Effect:|r Stuns for |cff87ceeb2s|r|n|cff32cd32Cooldown:|r |cff87ceeb30s|r|n|cff32cd32Description:|r Invisibile bombs, exploding upon contact with an enemy|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 100
+// Items: I02R (Bomb), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 600|n|cff32cd32Damage:|r |cff87ceeb800|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 300|n|cff32cd32Effect:|r Stuns for |cff87ceeb2s|r|n|cff32cd32Cooldown:|r |cff87ceeb30s|r|n|cff32cd32Description:|r Invisibile bombs, exploding upon contact with an enemy|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 101
+// Items: I03R (Bashosen), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy, Building|n|cff32cd32Casting Range:|r 700|n|cff32cd32Damage:|r |cff87ceeb3 x Taijutsu + 3 x Ninjutsu + 3 x Genjutsu|r|n|cff32cd32Damage Type:|r Siege|n|cff32cd32Area of Effect:|r 30° angle, 950 length|n|cff32cd32Chakra Cost:|r 100|n|cff32cd32Cooldown:|r |cff87ceeb40s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 102
+// Items: I03R (Bashosen), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy, Building|n|cff32cd32Casting Range:|r 700|n|cff32cd32Damage:|r |cff87ceeb3 x Taijutsu + 3 x Ninjutsu + 3 x Genjutsu|r|n|cff32cd32Damage Type:|r Siege|n|cff32cd32Area of Effect:|r 30° angle, 950 length|n|cff32cd32Chakra Cost:|r 100|n|cff32cd32Cooldown:|r |cff87ceeb40s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 103
+// Items: I05L (Makibishi), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 500|n|cff32cd32Damage:|r |cff87ceeb3 x Taijutsu + 2 x Ninjutsu + 3 x Genjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 350|n|cff32cd32Effect:|r |cff87ceeb35%|r Slow, Lasts |cff87ceeb6s|r|n|cff32cd32Cooldown:|r |cff87ceeb50s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 104
+// Items: I05L (Makibishi), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 500|n|cff32cd32Damage:|r |cff87ceeb3 x Taijutsu + 2 x Ninjutsu + 3 x Genjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 350|n|cff32cd32Effect:|r |cff87ceeb35%|r Slow, Lasts |cff87ceeb6s|r|n|cff32cd32Cooldown:|r |cff87ceeb50s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 105
+// Items: I06O (Chain), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 800|n|cff32cd32Damage:|r |cff87ceeb2 x Taijutsu + 3 x Ninjutsu + 3 x Genjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 930 length x 180 width|n|cff32cd32Effect:|r Pulls target|n|cff32cd32Cooldown:|r |cff87ceeb40s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 106
+// Items: I06O (Chain), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 800|n|cff32cd32Damage:|r |cff87ceeb2 x Taijutsu + 3 x Ninjutsu + 3 x Genjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 930 length x 180 width|n|cff32cd32Effect:|r Pulls target|n|cff32cd32Cooldown:|r |cff87ceeb40s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 107
+// Items: I06P (Blasting Sphere), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 700|n|cff32cd32Damage:|r |cff87ceeb3 x Taijutsu + 3 x Ninjutsu + 2 x Genjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 720 length x 200 width|n|cff32cd32Effect:|r Snares for |cff87ceeb2s|r|n|cff32cd32Cooldown:|r |cff87ceeb40s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 108
+// Items: I06P (Blasting Sphere), Description (Description)
+{
+|cff32cd32Target Type:|r Point Target|n|cff32cd32Targets Allowed:|r Enemy|n|cff32cd32Casting Range:|r 700|n|cff32cd32Damage:|r |cff87ceeb3 x Taijutsu + 3 x Ninjutsu + 2 x Genjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Area of Effect:|r 720 length x 200 width|n|cff32cd32Effect:|r Snares for |cff87ceeb2s|r|n|cff32cd32Cooldown:|r |cff87ceeb40s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
+STRING 109
+// Items: I073 (Kohaku no Johei), Description (Description)
+{
+|cff32cd32Target Type:|r Instant|n|cff32cd32Targets Allowed:|r Ally, Enemy|n|cff32cd32Area of Effect:|r 800|n|cff32cd32Chakra Cost:|r 500|n|cff32cd32Effect:|r Dispel debuffs from nearby allies and pull enemies for |cff87ceeb4s|r, sucking |cff87ceeb5%|r of chakra/second. If they get pulled for more than |cff87ceeb2s|r, they get esnared for |cff87ceeb2s|r|n|cff32cd32Cooldown:|r |cff87ceeb50s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
 STRING 110
-// Items: phea (Vitality Pills), Hotkey (Hotkey)
+// Items: I039 (Combine: Kage Robe), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 111
-// Items: sman (Scroll of Chakra), Hotkey (Hotkey)
+// Items: I00A (Ichiraku's Soup), Hotkey (Hotkey)
 {
 D
 }
 
+STRING 112
+// Items: I073 (Kohaku no Johei), Ubertip (Tooltip - Extended)
+{
+|cff32cd32Target Type:|r Instant|n|cff32cd32Targets Allowed:|r Ally, Enemy|n|cff32cd32Area of Effect:|r 800|n|cff32cd32Chakra Cost:|r 500|n|cff32cd32Effect:|r Dispel debuffs from nearby allies and pull enemies for |cff87ceeb4s|r, sucking |cff87ceeb5%|r of chakra/second. If they get pulled for more than |cff87ceeb2s|r, they get esnared for |cff87ceeb2s|r|n|cff32cd32Cooldown:|r |cff87ceeb50s|r|n|cffff0000Classification: Ninja Weapon|r
+}
+
 STRING 133
-// Items: odef (|cffc600ffSpirit of the Darkness|r), Hotkey (Hotkey)
+// Items: I00J (Battle Senbons - |cffffcc00Level 1|r), Hotkey (Hotkey)
 {
 D
 }
 
 STRING 137
-// Items: I00S (Taijutsu Trainning Book), Hotkey (Hotkey)
+// Items: I03Q (Combine: Elemental Kage Robe), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 143
-// Items: fwss (Ninja Bandana), Tip (Tooltip - Basic)
+// Items: I088 (Ninja Bandana), Tip (Tooltip - Basic)
 {
 Purchase Ninja Bandana [|cffffcc00A|r]
 }
 
 STRING 144
-// Items: sreg (Curry of Life), Tip (Tooltip - Basic)
+// Items: I03W (Curry of Life), Tip (Tooltip - Basic)
 {
 Purchase Curry of Life [|cffffcc00R|r]
 }
@@ -257,37 +716,37 @@ Smoke Bomb
 }
 
 STRING 162
-// Items: I00V (Akatsuki Cloth), Hotkey (Hotkey)
+// Items: I03R (Bashosen), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 163
-// Items: I020 (|cffec6200Oil|r), Hotkey (Hotkey)
+// Items: I044 (Upgrade Stone), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 188
-// Items: I037 (Kage Hat), Hotkey (Hotkey)
+// Items: I05B (B-Rank Mission), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 189
-// Items: I039 (Combine: Kage Robe), Hotkey (Hotkey)
+// Items: I05E (Rikuudou Sennin Staff), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 216
-// Items: frgd (Uchiha Sword), Hotkey (Hotkey)
+// Items: I00G (Tales Of A Gutsy Ninja), Hotkey (Hotkey)
 {
 R
 }
 
 STRING 217
-// Items: oli2 (|cfffffc00Spirit of Thunder|r), Hotkey (Hotkey)
+// Items: I00L (|cff00ff00Sword Of Totsuka|r), Hotkey (Hotkey)
 {
 R
 }
@@ -299,25 +758,25 @@ A-Rank Mission [|cffffcc00W|r]
 }
 
 STRING 242
-// Items: pmna (|cff2d96d9Stone of Chakra|r), Hotkey (Hotkey)
+// Items: I000 (Upgrade Kusanagi Sword), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 243
-// Items: sror (Attack Pills), Hotkey (Hotkey)
+// Items: I00T (Ninjutsu Trainning Book), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 263
-// Items: I03Q (Combine: Elemental Kage Robe), Hotkey (Hotkey)
+// Items: I05P (Bijuu Essence), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 264
-// Items: I03R (Bashosen), Hotkey (Hotkey)
+// Items: I080 (Combine: Elemental Chakra Blades), Hotkey (Hotkey)
 {
 Q
 }
@@ -335,37 +794,37 @@ STRING 310
 }
 
 STRING 393
-// Items: sman (Scroll of Chakra), Name (Name)
+// Items: I05O (Scroll of Chakra), Name (Name)
 {
 Scroll of Chakra
 }
 
 STRING 400
-// Items: ratf (Scroll of Invisibility), Hotkey (Hotkey)
+// Items: I02I (Combine: ANBU Mask), Hotkey (Hotkey)
 {
 D
 }
 
 STRING 406
-// Items: I00A (Ichiraku's Soup), Hotkey (Hotkey)
+// Items: I02K (Combine: The Heaven Sword), Hotkey (Hotkey)
 {
 D
 }
 
 STRING 417
-// Items: I03T (|cffb04453Akatsuki Set|r), Hotkey (Hotkey)
+// Items: I05V (Soulabsorb Stone), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 418
-// Items: I044 (Upgrade Stone), Hotkey (Hotkey)
+// Items: I05W (Speed Pills), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 442
-// Items: I00U (Genjutsu Trainning Book), Hotkey (Hotkey)
+// Items: I075 (Recipe: Kohaku no Johei), Hotkey (Hotkey)
 {
 E
 }
@@ -377,13 +836,13 @@ STRING 483
 }
 
 STRING 486
-// Items: I02R (Bomb), Hotkey (Hotkey)
+// Items: I07H (Combine: Elemental ANBU Mask), Hotkey (Hotkey)
 {
 E
 }
 
 STRING 487
-// Items: I03U (Combine: Akatsuki Set), Hotkey (Hotkey)
+// Items: I02P (Combine: Book of Gelel), Hotkey (Hotkey)
 {
 E
 }
@@ -413,13 +872,13 @@ Mission: Bijuu Hunt Genjutsu
 }
 
 STRING 514
-// Items: I05D (S-Rank Mission), Hotkey (Hotkey)
+// Items: I034 (Attack Pills), Hotkey (Hotkey)
 {
 E
 }
 
 STRING 515
-// Items: I060 (Defense Pills), Hotkey (Hotkey)
+// Items: I05N (Ninja Net), Hotkey (Hotkey)
 {
 E
 }
@@ -431,13 +890,13 @@ STRING 516
 }
 
 STRING 519
-// Items: I075 (Recipe: Kohaku no Johei), Hotkey (Hotkey)
+// Items: I06Q (|cff8b4600Spirit of Earth|r), Hotkey (Hotkey)
 {
 E
 }
 
 STRING 520
-// Items: I07H (Combine: Elemental ANBU Mask), Hotkey (Hotkey)
+// Items: I087 (Mirrored Shield), Hotkey (Hotkey)
 {
 E
 }
@@ -461,61 +920,37 @@ A mask only used by those qualified as Otogakure ANBU.|cff32cd32|n+40 all stats|
 }
 
 STRING 546
-// Items: I00G (Tales Of A Gutsy Ninja), Hotkey (Hotkey)
+// Items: I008 (Upgrade Weapon), Hotkey (Hotkey)
 {
 R
 }
 
 STRING 547
-// Items: I00L (|cff00ff00Sword Of Totsuka|r), Hotkey (Hotkey)
+// Items: I02E (Combine Elemental Weapon), Hotkey (Hotkey)
 {
 R
 }
 
 STRING 549
-// Items: I02P (Combine: Book of Gelel), Hotkey (Hotkey)
+// Items: I08C (Uchiha Shield), Hotkey (Hotkey)
 {
 E
 }
 
 STRING 561
-// Items: I05B (B-Rank Mission), Hotkey (Hotkey)
+// Items: I05X (Substitution Wood), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 562
-// Items: I05E (Rikuudou Sennin Staff), Hotkey (Hotkey)
+// Items: I05Y (Vitality Pills), Hotkey (Hotkey)
 {
 Q
 }
 
 STRING 612
-// Items: I05P (Bijuu Essence), Hotkey (Hotkey)
-{
-Q
-}
-
-STRING 613
-// Items: I077 (|cffb04453Akatsuki Leader Set|r), Hotkey (Hotkey)
-{
-Q
-}
-
-STRING 636
-// Items: I078 (|cffb04453Akatsuki Leader Set|r), Hotkey (Hotkey)
-{
-Q
-}
-
-STRING 637
-// Items: I079 (|cffb04453Akatsuki Leader Set|r), Hotkey (Hotkey)
-{
-Q
-}
-
-STRING 661
-// Items: I080 (Combine: Elemental Chakra Blades), Hotkey (Hotkey)
+// Items: I085 (Bingo Book), Hotkey (Hotkey)
 {
 Q
 }
@@ -527,25 +962,25 @@ STRING 731
 }
 
 STRING 757
-// Items: I008 (Upgrade Weapon), Hotkey (Hotkey)
+// Items: I02X (Upgrade Sword of Totsuka), Hotkey (Hotkey)
 {
 R
 }
 
 STRING 758
-// Items: I02E (Combine Elemental Weapon), Hotkey (Hotkey)
+// Items: I033 (Body-Replacing Doll), Hotkey (Hotkey)
 {
 R
 }
 
 STRING 764
-// Items: ofro (|cff53a4ffSpirit of Water|r), Hotkey (Hotkey)
+// Items: I00X (|cff39e30cPoison Pills|r), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 765
-// Items: wild (Scroll of Summoning), Hotkey (Hotkey)
+// Items: I00P (Upgrade Shoes), Hotkey (Hotkey)
 {
 W
 }
@@ -569,7 +1004,7 @@ STRING 795
 }
 
 STRING 801
-// Items: I00J (Battle Senbons - |cffffcc00Level 1|r), Hotkey (Hotkey)
+// Items: I001 (|cffFFFFE0Senbons Dance|r), Hotkey (Hotkey)
 {
 D
 }
@@ -581,37 +1016,31 @@ S-Rank Mission [|cffffcc00E|r]
 }
 
 STRING 816
-// Items: I02X (Upgrade Sword of Totsuka), Hotkey (Hotkey)
-{
-R
-}
-
-STRING 820
-// Items: I033 (Body-Replacing Doll), Hotkey (Hotkey)
-{
-R
-}
-
-STRING 827
 // Items: I04R (Speed Pills), Hotkey (Hotkey)
 {
 R
 }
 
-STRING 828
+STRING 820
 // Items: I05A (Repair base), Hotkey (Hotkey)
 {
 R
 }
 
-STRING 831
-// Items: I03T (|cffb04453Akatsuki Set|r), Tip (Tooltip - Basic)
+STRING 827
+// Items: I07K (Recipe: Shichiseiken), Hotkey (Hotkey)
 {
-Purchase Akatsuki Cloth [|cffffcc00Q|r]
+R
+}
+
+STRING 828
+// Items: I02J (|cff56c9dbBook of Gelel|r), Hotkey (Hotkey)
+{
+R
 }
 
 STRING 857
-// Items: clsd (Sanbi's Skin), Hotkey (Hotkey)
+// Items: I02V (Legendary weapons here!), Hotkey (Hotkey)
 {
 W
 }
@@ -623,13 +1052,13 @@ STRING 875
 }
 
 STRING 876
-// Items: pman (Chakra Pills), Hotkey (Hotkey)
+// Items: I041 (|cff2d96d9Stone of Greater Chakra|r), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 880
-// Items: srbd (|cfffe0000Triple-Bladed Scythe|r), Ubertip (Tooltip - Extended)
+// Items: I08L (|cfffe0000Triple-Bladed Scythe|r), Ubertip (Tooltip - Extended)
 {
 |cff32cd32+30 to all status|n+200 damage|n|cff87ceeb- Lifesteal (passive, 50%)|n- Curse of Jashin (active, rng: 800, cd: 35s)|n  Pull a target to nearby you, deals 500 chaos damage, drain 5% of the target health, stun it for 1s and reduce its armor by 15|cffff0000|r|n|cffff0000Item Type: Weapon|r
 }
@@ -647,7 +1076,7 @@ Increases user health|cff87ceeb|n+750 life points|n|cffff0000Item Type: Support|
 }
 
 STRING 914
-// Items: I02I (Combine: ANBU Mask), Hotkey (Hotkey)
+// Items: I057 (Executioner's Blade), Hotkey (Hotkey)
 {
 D
 }
@@ -665,13 +1094,13 @@ Purchase |cff32cd32Seal Healing|r [|cffffcc00D|r]
 }
 
 STRING 918
-// Items: I02K (Combine: The Heaven Sword), Hotkey (Hotkey)
+// Items: I072 (Mission: Bijuu Hunt Taijutsu), Hotkey (Hotkey)
 {
 D
 }
 
 STRING 923
-// Items: I001 (|cffFFFFE0Senbons Dance|r), Hotkey (Hotkey)
+// Items: I07P (Upgrade Chakra Blade), Hotkey (Hotkey)
 {
 D
 }
@@ -683,57 +1112,45 @@ Bomb
 }
 
 STRING 949
-// Items: tkno (Ichiraku's Special Recipe), Hotkey (Hotkey)
-{
-F
-}
-
-STRING 953
-// Items: shea (Scroll of Healing), Hotkey (Hotkey)
-{
-F
-}
-
-STRING 957
 // Items: I01L (Battle Shuriken - |cffffcc00Level 1|r), Hotkey (Hotkey)
 {
 F
 }
 
-STRING 960
-// Items: I077 (|cffb04453Akatsuki Leader Set|r), Tip (Tooltip - Basic)
+STRING 953
+// Items: I02M (Combine: Jade of Susano'o), Hotkey (Hotkey)
 {
-Purchase Akatsuki Cloth [|cffffcc00Q|r]
+F
+}
+
+STRING 957
+// Items: I02O (Combine: Ultimate Weapon), Hotkey (Hotkey)
+{
+F
 }
 
 STRING 974
-// Items: I07K (Recipe: Shichiseiken), Hotkey (Hotkey)
+// Items: I083 (|cfffffc00Spirit of Thunder|r), Hotkey (Hotkey)
 {
 R
 }
 
 STRING 985
-// Items: I057 (Executioner's Blade), Hotkey (Hotkey)
+// Items: I07Q (|cff32cd32Seal Healing|r), Hotkey (Hotkey)
 {
 D
 }
 
 STRING 1031
-// Items: I072 (Mission: Bijuu Hunt Taijutsu), Hotkey (Hotkey)
+// Items: I05O (Scroll of Chakra), Hotkey (Hotkey)
 {
 D
 }
 
 STRING 1038
-// Items: shar (|cffff0000Yata Mirror|r), Hotkey (Hotkey)
+// Items: I00R (|cff4db948Stone of Life|r), Hotkey (Hotkey)
 {
 X
-}
-
-STRING 1045
-// Items: I05L (Makibishi), Description (Description)
-{
-Deals |cff32cd323 X Genjutsu + 3 x Taijutsu + 2 x Ninjutsu|r to enemies and slow them by 35%. Last 6 seconds.|n|cff87ceebCooldown: 40s.|r|n|cffff0000Classification: Ninja Weapon|r
 }
 
 STRING 1055
@@ -746,12 +1163,6 @@ STRING 1056
 // Items: I05H (Medical Ninja Cloth), Tip (Tooltip - Basic)
 {
 Purchase Medical Ninja Cloth [|cffffcc00C|r]
-}
-
-STRING 1069
-// Items: I004 (Genin Cloth), Description (Description)
-{
-A cloth given to graduated children on Ninja Academy.|n|cff32cd32+10 all stats|n+10 damage|n+5 armor|n- Reduce damage taken from normal jutsus by 5%|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 1082
@@ -767,25 +1178,25 @@ Kunai infused with water. The carrier can feel a soothing aura coming from this 
 }
 
 STRING 1093
-// Items: pres (Attack Pills), Ubertip (Tooltip - Extended)
+// Items: I034 (Attack Pills), Ubertip (Tooltip - Extended)
 {
 Gives |cff32cd32150%|r damage for |cff32cd3220|r seconds to all nearby allies. 
 }
 
 STRING 1096
-// Items: pres (Attack Pills), Description (Description)
+// Items: I034 (Attack Pills), Description (Description)
 {
 Gives |cff32cd32150%|r damage for |cff32cd3220|r seconds to all nearby allies. 
 }
 
 STRING 1108
-// Items: whwd (Medical Aid Kit), Name (Name)
+// Items: I05M (Medical Aid Kit), Name (Name)
 {
 Medical Aid Kit
 }
 
 STRING 1109
-// Items: sres (Ichiraku Ramen (BIG)), Hotkey (Hotkey)
+// Items: I00O (Combine: |cffb04453Akatsuki Ring|r), Hotkey (Hotkey)
 {
 S
 }
@@ -797,43 +1208,43 @@ Combine: Kage Robe [|cffffcc00Q|r]
 }
 
 STRING 1113
-// Items: rwiz (|cffffcc00ANBU Mask|r), Hotkey (Hotkey)
+// Items: I007 (|cff00ff00Kusanagi Sword|r), Hotkey (Hotkey)
 {
 A
 }
 
 STRING 1114
-// Items: I07P (Upgrade Chakra Blade), Hotkey (Hotkey)
+// Items: I07L (|cffc600ffSpirit of the Darkness|r), Hotkey (Hotkey)
 {
 D
 }
 
 STRING 1129
-// Items: I000 (Upgrade Kusanagi Sword), Hotkey (Hotkey)
+// Items: I042 (|cff2d96d9Stone of Infinite Chakra|r), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 1130
-// Items: I00T (Ninjutsu Trainning Book), Hotkey (Hotkey)
+// Items: I043 (|cff2d96d9Indra Essence|r), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 1144
-// Items: I07Q (|cff32cd32Seal Healing|r), Hotkey (Hotkey)
+// Items: I089 (Scroll of Invisibility), Hotkey (Hotkey)
 {
 D
 }
 
 STRING 1153
-// Items: I00X (|cff39e30cPoison Pills|r), Hotkey (Hotkey)
+// Items: I05C (A-Rank Mission), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 1199
-// Items: I02J (|cff56c9dbBook of Gelel|r), Hotkey (Hotkey)
+// Items: I08H (Uchiha Sword), Hotkey (Hotkey)
 {
 R
 }
@@ -845,51 +1256,33 @@ Mission: Bijuu Hunt Ninjutsu
 }
 
 STRING 1235
-// Items: I00P (Upgrade Shoes), Hotkey (Hotkey)
+// Items: I05F (|cff53a4ffFalse Spirit of Water|r), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 1237
-// Items: I02M (Combine: Jade of Susano'o), Hotkey (Hotkey)
+// Items: I02Q (Timed Explosive Tag), Hotkey (Hotkey)
 {
 F
 }
 
-STRING 1265
-// Items: I013 (Explosive Tag Package), Description (Description)
-{
-Contains |cff32cd328|r Explosive Tags wich deals |cff32cd321500|r damage in a huge area.
-}
-
 STRING 1287
-// Items: I02O (Combine: Ultimate Weapon), Hotkey (Hotkey)
+// Items: I03I (Flash Bomb), Hotkey (Hotkey)
 {
 F
 }
 
 STRING 1317
-// Items: fgfh (Fire crackers), Ubertip (Tooltip - Extended)
+// Items: I04P (Fire crackers), Ubertip (Tooltip - Extended)
 {
 A package filled with fire crackers! Deals |cff32cd32600 damage after |cff32cd325|r seconds in |cff32cd32400|r AoE, stunning enemies (1s for heroes)
 }
 
 STRING 1318
-// Items: fgfh (Fire crackers), Description (Description)
+// Items: I04P (Fire crackers), Description (Description)
 {
 A package filled with fire crackers! Deals |cff32cd32600 damage after |cff32cd325|r seconds in |cff32cd32400|r AoE, stunning enemies (1s for heroes)
-}
-
-STRING 1319
-// Items: I00V (Akatsuki Cloth), Ubertip (Tooltip - Extended)
-{
-A cloth worn by akatsuki members. Allows you to become  invisible.|n|cff32cd32+500 HP|n+15 to all stats|n- Shadow Meld (passive)|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 1320
-// Items: I00V (Akatsuki Cloth), Description (Description)
-{
-A cloth worn by akatsuki members. Allows you to become  invisible.|n|cff32cd32+500 HP|n+15 to all stats|n- Shadow Meld (passive)|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 1321
@@ -1102,14 +1495,8 @@ STRING 1352
 Contains |cff32cd328|r Explosive Tags wich deals |cff32cd321500|r damage in a huge area.
 }
 
-STRING 1353
-// Items: I013 (Explosive Tag Package), Ubertip (Tooltip - Extended)
-{
-Contains |cff32cd328|r Explosive Tags wich deals |cff32cd321500|r damage in a huge area.
-}
-
 STRING 1424
-// Items: I00R (|cff4db948Stone of Life|r), Hotkey (Hotkey)
+// Items: I03Y (|cff4db948Stone of Greater Life|r), Hotkey (Hotkey)
 {
 X
 }
@@ -1120,20 +1507,8 @@ STRING 1425
 Makibishi
 }
 
-STRING 1427
-// Items: I05L (Makibishi), Ubertip (Tooltip - Extended)
-{
-Deals |cff32cd323 X Genjutsu + 3 x Taijutsu + 2 x Ninjutsu|r to enemies and slow them by 35%. Last 6 seconds.|n|cff87ceebCooldown: 40s.|r|n|cffff0000Classification: Ninja Weapon|r
-}
-
-STRING 1428
-// Items: I054 (Sanbi's Hardened Skin), Description (Description)
-{
-Gives armor bonus and reflects meele attacks.
-}
-
 STRING 1483
-// Items: I02Q (Timed Explosive Tag), Hotkey (Hotkey)
+// Items: I03J (|cff5b85ffSamehada Sword|r), Hotkey (Hotkey)
 {
 F
 }
@@ -1151,42 +1526,27 @@ Upgrade Cloth [|cffffcc00E|r]
 }
 
 STRING 1552
-// Items: I02V (Legendary weapons here!), Hotkey (Hotkey)
+// Items: I073 (Kohaku no Johei), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 1553
-// Items: I041 (|cff2d96d9Stone of Greater Chakra|r), Hotkey (Hotkey)
+// Items: I074 (Recipe: Bashosen), Hotkey (Hotkey)
 {
 W
 }
 
-STRING 1557
-// Items: I03T (|cffb04453Akatsuki Set|r), Ubertip (Tooltip - Extended)
-{
-A set used by Akatsuki members. Allows you to become invisible.|n|cff32cd32+500 hp|n+40 to all stats|n- Assassin Focus (active, Grants +15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n- Bijuu hunter (passive): Once you have completed a bijuu hunt, get +4 extra stats.|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cffff0000Item Type: Cloth|r
-}
-
 STRING 1570
-// Items: mcou (Mirrored Shield), Ubertip (Tooltip - Extended)
+// Items: I087 (Mirrored Shield), Ubertip (Tooltip - Extended)
 {
 A legendary shield capable of reflecting negative spells.|n|cff32cd32+15 all stats|n|cff87ceeb- Magic Shield (passive, cd: 50s)|n- True Sight (passive, rng: 1100)|n|cffff0000Item Type: Support|r
 }
 
 STRING 1581
-// Items: mcou (Mirrored Shield), Description (Description)
+// Items: I087 (Mirrored Shield), Description (Description)
 {
 A legendary shield capable of reflecting negative spells.|n|cff32cd32+15 all stats|n|cff87ceeb- Magic Shield (passive, cd: 50s)|n- True Sight (passive, rng: 1100)|n|cffff0000Item Type: Support|r
-}
-
-STRING 1584
-// Items: I03M (|cff8b4600Tsuchikage Robe|r), Ubertip (Tooltip - Extended)
-{
-Cloth worn by the most important ninja of Iwagakure.|n|cff32cd32+70 all stats|n+20 taijutsu
-+100 damage
-+200 armor
-- Reduce damage taken from normal jutsus by 50% |cffff0000(does not stack)|cff32cd32|n- Fortitude Aura (passive, +25 armor to nearby allies)|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 1588
@@ -1214,27 +1574,21 @@ Throws a bomb that blinds all enemies in a small area upon explosion, silencing 
 }
 
 STRING 1644
-// Items: I042 (|cff2d96d9Stone of Infinite Chakra|r), Hotkey (Hotkey)
+// Items: I00W (Smoke Bomb), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 1650
-// Items: I043 (|cff2d96d9Indra Essence|r), Hotkey (Hotkey)
+// Items: I002 (Combine: Akatsuki Ring Members), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 1651
-// Items: I054 (Sanbi's Hardened Skin), Hotkey (Hotkey)
+// Items: I02U (Sanbi's Skin), Hotkey (Hotkey)
 {
 W
-}
-
-STRING 1739
-// Items: I03T (|cffb04453Akatsuki Set|r), Description (Description)
-{
-A set used by Akatsuki members. Allows you to become invisible.|n|cff32cd32+500 hp|n+40 to all stats|n- Assassin Focus (active, Grants +15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n- Bijuu hunter (passive): Once you have completed a bijuu hunt, get +4 extra stats.|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 1742
@@ -1261,26 +1615,20 @@ STRING 1829
 The legendary kusanagi infused with wind. What is this power?|n|cff32cd32+200 damage|n+35 Ninjutsu bonus|n+120 movespeed|cffff0000 (Does not stack with shoes)|n|cff32cd32- Has 20% chance to deal damage equal to the (square root of Ninjutsu cubed) / 4 to nearby enemies|n- Wind Vacuum (active, 700 AoE, 80% slow) |n|cffff0000Item-Type: Weapon|r
 }
 
-STRING 1850
-// Items: I00X (|cff39e30cPoison Pills|r), Description (Description)
-{
-A basic ninja weapon. Throws a pill which creates a venomous mist, dealing damage-over-time and slowing down all nearby enemies.|n|cff32cd32Deals 220 damage per second for 11 seconds around 300 radius. Also slow affected enemies by 35%.|n|cff87ceebCooldown: 40s|r|n|cffff0000Item Type: Ninja Weapon|r
-}
-
 STRING 1863
-// Items: fwss (Ninja Bandana), Hotkey (Hotkey)
+// Items: I011 (|cffec6200Explosive Kunai|r), Hotkey (Hotkey)
 {
 A
 }
 
 STRING 1869
-// Items: I055 (Sanbi's Impenetrable Skin), Hotkey (Hotkey)
+// Items: I031 (Attack Pills), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 1870
-// Items: I05C (A-Rank Mission), Hotkey (Hotkey)
+// Items: I035 (Chakra Pills), Hotkey (Hotkey)
 {
 W
 }
@@ -1292,19 +1640,19 @@ Repair base [|cffffcc00R|r]
 }
 
 STRING 2030
-// Items: I05F (|cff53a4ffFalse Spirit of Water|r), Hotkey (Hotkey)
+// Items: I05U (Scroll of Summoning), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 2031
-// Items: I05Q (|cffa19e96Juubi's Skin|r), Hotkey (Hotkey)
+// Items: I05Z (|cff53a4ffSpirit of Water|r), Hotkey (Hotkey)
 {
 W
 }
 
 STRING 2032
-// Items: sand (Edo Tensei Scroll), Hotkey (Hotkey)
+// Items: I02N (Combine: The Heaven Stone), Hotkey (Hotkey)
 {
 A
 }
@@ -1316,31 +1664,13 @@ Upgrade Kusanagi Sword
 }
 
 STRING 2067
-// Items: sres (Ichiraku Ramen (BIG)), Tip (Tooltip - Basic)
+// Items: I04Q (Ichiraku Ramen (BIG)), Tip (Tooltip - Basic)
 {
 Purchase Ichiraku Ramen (BIG) (|cffffcc00S|r)
 }
 
 STRING 2078
-// Items: I073 (Kohaku no Johei), Hotkey (Hotkey)
-{
-W
-}
-
-STRING 2109
-// Items: I074 (Recipe: Bashosen), Hotkey (Hotkey)
-{
-W
-}
-
-STRING 2110
-// Items: I00W (Smoke Bomb), Hotkey (Hotkey)
-{
-W
-}
-
-STRING 2131
-// Items: I002 (Combine: Akatsuki Ring Members), Hotkey (Hotkey)
+// Items: I08E (|cff2d96d9Stone of Chakra|r), Hotkey (Hotkey)
 {
 W
 }
@@ -1376,7 +1706,7 @@ Purchase Ichiraku's Soup (|cffffcc00D|r)
 }
 
 STRING 2333
-// Items: mcou (Mirrored Shield), Name (Name)
+// Items: I087 (Mirrored Shield), Name (Name)
 {
 Mirrored Shield
 }
@@ -1394,7 +1724,7 @@ Purchase Bashosen [|cffffcc00Q|r]
 }
 
 STRING 2455
-// Items: rej3 (Ichiraku Ramen (Small)), Hotkey (Hotkey)
+// Items: I012 (|cffFFFFE0Fuuma Shuriken|r), Hotkey (Hotkey)
 {
 S
 }
@@ -1406,33 +1736,15 @@ STRING 2501
 }
 
 STRING 2530
-// Items: ofir (|cffff0000Spirit of Fire|r), Hotkey (Hotkey)
+// Items: I038 (|cffff0000Kage Robe|r), Hotkey (Hotkey)
 {
 A
-}
-
-STRING 2551
-// Items: I054 (Sanbi's Hardened Skin), Ubertip (Tooltip - Extended)
-{
-An armor made from the legendary three-tails' skin. |n|cff32cd32+25 Armor|n+20 all stats|n- Sanbi's Shell (active, cd: 60s):|n   Make the caster immune to negative spells during 4 seconds and reflects 50% of damage taken.|n- Reflect 25% damage received from auto attacks (passive)|n- Reduce damage taken from normal jutsus by 5% |cffff0000(does not stack)|cff32cd32|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 2562
 // Items: I071 (Mission: Bijuu Hunt Ninjutsu), Tip (Tooltip - Basic)
 {
 Mission: Bijuu Hunt Ninjutsu [|cffffcc00S|r]
-}
-
-STRING 2648
-// Items: I055 (Sanbi's Impenetrable Skin), Ubertip (Tooltip - Extended)
-{
-An armor made from the legendary three-tails' skin. |n|cff32cd32+50 Armor|n+20 all stats|n- Sanbi's Shell (active, cd: 60s):|n   Make the caster immune to negative spells during 4 seconds and reflects 50% of damage taken.|n- Reflect 50% damage received from auto attacks (passive)|n- Reduce damage taken from normal jutsus by 10% |cffff0000(does not stack)|cff32cd32|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 2649
-// Items: I05Q (|cffa19e96Juubi's Skin|r), Ubertip (Tooltip - Extended)
-{
-An armor made from the ten-tails, which has the hardest skin in the world. |n|cff32cd32+100 Armor|n+40 all stats|n+35% evasion|n- Juubi's Shell (active, cd: 60s):|n   Make the caster immune to negative spells and auto-attacks during 6 seconds and reflects 50% of damage taken.|n- Aura which reflects 25% of damage taken from spells and 100% damage received from auto attacks (passive)|n- Reduce damage taken from normal jutsus by 30% |cffff0000(does not stack)|cff32cd32|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 2668
@@ -1442,7 +1754,7 @@ STRING 2668
 }
 
 STRING 2700
-// Items: sres (Ichiraku Ramen (BIG)), Ubertip (Tooltip - Extended)
+// Items: I04Q (Ichiraku Ramen (BIG)), Ubertip (Tooltip - Extended)
 {
 Restores |cff32cd324000|r HP during |cff32cd3210|r seconds. |cff87ceebEffect will be dispelled when attacked.|r
 }
@@ -1459,7 +1771,7 @@ Spectator 1
 }
 
 STRING 3068
-// Items: whwd (Medical Aid Kit), Hotkey (Hotkey)
+// Items: I004 (Genin Cloth), Hotkey (Hotkey)
 {
 Z
 }
@@ -1474,12 +1786,6 @@ STRING 3179
 // Items: I037 (Kage Hat), Tip (Tooltip - Basic)
 {
 Buy Kage Hat [|cffffcc00Q|r]
-}
-
-STRING 3426
-// Items: I06O (Chain), Ubertip (Tooltip - Extended)
-{
-Deals |cff32cd323 X Ninjutsu + 3 x Genjutsu + 2 x Taijutsu|r to the first enemy in a line, hooking it.|n|cff87ceebCooldown: 40s.|r|n|cffff0000Classification: Ninja Weapon|r
 }
 
 STRING 3481
@@ -1501,7 +1807,7 @@ Kunai infused with thunder. Sparks can be seen racing across the weapon.|n|cff32
 }
 
 STRING 3683
-// Items: I03I (Flash Bomb), Hotkey (Hotkey)
+// Items: I061 (|cffFFFFE0Spirit of Light|r), Hotkey (Hotkey)
 {
 F
 }
@@ -1525,7 +1831,7 @@ Throws pills which explodes, creating a smokescreen which turns all your allies 
 }
 
 STRING 3930
-// Items: pomn (Ninja Net), Name (Name)
+// Items: I05N (Ninja Net), Name (Name)
 {
 Ninja Net
 }
@@ -1542,14 +1848,8 @@ STRING 4065
 Gunbai
 }
 
-STRING 4174
-// Items: I06O (Chain), Description (Description)
-{
-Deals |cff32cd323 X Ninjutsu + 3 x Genjutsu + 2 x Taijutsu|r to the first enemy in a line, hooking it.|n|cff87ceebCooldown: 40s.|r|n|cffff0000Classification: Ninja Weapon|r
-}
-
 STRING 4257
-// Items: whwd (Medical Aid Kit), Tip (Tooltip - Basic)
+// Items: I05M (Medical Aid Kit), Tip (Tooltip - Basic)
 {
 Purchase Medical Aid Kit [|cffffcc00Z|r]
 }
@@ -1621,7 +1921,7 @@ Upgrade Stone [|cffffcc00Q|r]
 }
 
 STRING 4640
-// Items: stel (Scroll of Teleportation), Ubertip (Tooltip - Extended)
+// Items: I08B (Scroll of Teleportation), Ubertip (Tooltip - Extended)
 {
 Teleport you to location.|n|cff32cd32+20 Ninjutsu|n+10 Genjutsu|n- Blink (active, rng: 800, cd: 35s)|n|cffff0000Item Type: Support|r
 }
@@ -1633,7 +1933,7 @@ Kunai infused with thunder. Sparks can be seen racing across the weapon.|n|cff32
 }
 
 STRING 4838
-// Items: rwiz (|cffffcc00ANBU Mask|r), Ubertip (Tooltip - Extended)
+// Items: I08G (|cffffcc00ANBU Mask|r), Ubertip (Tooltip - Extended)
 {
 A mask only used by those qualified as ANBU.|cff32cd32|n+20 all stats|n- Killing units will give 90/(gold per minute/1000) additional gold if gold per minute is below 2200 and killing heroes provides 200 additional gold (passive)|n- Assassin Focus (passive): Every 120s target a random enemy hero, pinging its location every 30s. Killing him will provide 1000 additional gold. |n|cffec0f25Item Type:Support|r
 }
@@ -1680,12 +1980,6 @@ STRING 4949
 A special made metal infused with fire.|n|cff32cd32+70 to all stats|n+20 Taijutsu|n+150 damage|n|cff87ceeb-Wave of Fire (active, cd: 40s)|nDeals (3 x taijutsu+ 3 x ninjutsu+ 3 x genjutsu) in line|n- Spells have ((4000 - min(4000, damage dealt)) / 150)/% of chance to deal double damage (passive)|n|cffff0000Item Type: Weapon|r
 }
 
-STRING 4954
-// Items: I05H (Medical Ninja Cloth), Description (Description)
-{
-A cloth used by all medical ninjas. It greatly enhances medical abilities.|n|cff32cd32+20 all stats|n+20 armor|n- Reduce damage taken from normal jutsus by 10%|n- Increase all healing effects by 50% (passive)|n- Heal (active, 60s): Recovers 500 hit points over 5s|n|cffff0000Item Type: Cloth|r
-}
-
 STRING 5002
 // Items: I06A (|cffFFFFE0Explosive Light Kunai|r), Ubertip (Tooltip - Extended)
 {
@@ -1705,37 +1999,31 @@ Kunai infused with the earth. The carrier feels stronger while holding this weap
 }
 
 STRING 5076
-// Items: srbd (|cfffe0000Triple-Bladed Scythe|r), Description (Description)
+// Items: I08L (|cfffe0000Triple-Bladed Scythe|r), Description (Description)
 {
 |cff32cd32+30 to all status|n+200 damage|n|cff87ceeb- Lifesteal (passive, 50%)|n- Curse of Jashin (active, rng: 800, cd: 35s)|n  Pull a target to nearby you, deals 500 chaos damage, drain 5% of the target health, stun it for 1s and reduce its armor by 15|cffff0000|r|n|cffff0000Item Type: Weapon|r
 }
 
-STRING 5077
-// Items: I05I (|cff6bfe62Medical Ninja Set|r), Description (Description)
-{
-A set of medical ninja items used to help shinobis in battle.|n|cff32cd32+30 all stats|n+30 armor|n- Reduce damage taken from normal jutsus by 25%|n- Increase all healing effects by 50% (passive, area)|n- Medical Regeneration (passive): Increase all nearby allies within 900 radius movement speed by 15% and life regeneration by 300%|n- Greater Medical Sphere (active, 150s): Recovers 3% hp of all allies around 600 radius per second during 10 seconds and reduces damage taken by 50%|n|cffff0000Item Type: Cloth|r|n|cffff0000Careful: Only one member per team can carry it|r
-}
-
 STRING 5353
-// Items: tkno (Ichiraku's Special Recipe), Ubertip (Tooltip - Extended)
+// Items: I084 (Ichiraku's Special Recipe), Ubertip (Tooltip - Extended)
 {
 Increases the level of the Hero by |cff32cd32<AIlm,DataA1>|r when used.
 }
 
 STRING 5355
-// Items: sres (Ichiraku Ramen (BIG)), Name (Name)
+// Items: I04Q (Ichiraku Ramen (BIG)), Name (Name)
 {
 Ichiraku Ramen (BIG)
 }
 
 STRING 5442
-// Items: ratc (|cffff0000Legendary Weapon: Kyuubi's Chakra Cloak|r), Name (Name)
+// Items: I08M (|cffff0000Legendary Weapon: Kyuubi's Chakra Cloak|r), Name (Name)
 {
 |cffff0000Legendary Weapon: Kyuubi's Chakra Cloak|r
 }
 
 STRING 5447
-// Items: ratc (|cffff0000Legendary Weapon: Kyuubi's Chakra Cloak|r), Description (Description)
+// Items: I06B (|cff8b4600Legendary Weapon: Adamantine Staff|r), Description (Description)
 {
 Highest rank kunai weapon.
 }
@@ -1757,26 +2045,20 @@ A three-sided MOBA based on Naruto Universe. Play with more than 80 characters a
 |cff32cd32Website: narutoninpou.com|r
 }
 
-STRING 5477
-// Items: I073 (Kohaku no Johei), Description (Description)
-{
-Dispel negative buffs from nearby allies, and pull enemies for 4s, sucking 5% of chakra/second. If they get pulled for more than 2s, they get esnared for 2s.|n|cff87ceebCooldown: 40s.|r
-}
-
 STRING 5503
-// Items: rat6 (|cfffffc00Legendary Weapon: Raijin no Ken|r), Description (Description)
+// Items: I06C (|cffB0B0B0Legendary Weapon: Iron Fan|r), Description (Description)
 {
 Highest rank shuriken weapon.
 }
 
 STRING 5507
-// Items: shas (Speed Pills), Tip (Tooltip - Basic)
+// Items: I05W (Speed Pills), Tip (Tooltip - Basic)
 {
 Purchase Speed Pills [|cffffcc00Q|r]
 }
 
 STRING 5510
-// Items: rat9 (|cff53a4ffLegendary Weapon: Haku's Senbons|r), Description (Description)
+// Items: I06D (|cffc600ffLegendary Weapon: Shinigami Mask|r), Description (Description)
 {
 Highest rank senbons weapon.
 }
@@ -1788,13 +2070,13 @@ Highest rank shuriken.
 }
 
 STRING 5530
-// Items: arsc (Arcane Scroll), Ubertip (Tooltip - Extended)
+// Items: I030 (Arcane Scroll), Ubertip (Tooltip - Extended)
 {
 A powerful scroll that restores |cff32cd32500|r hit points, |cff32cd32300|r chakra, and grants |cff32cd3210|r bonus armor to nearby friendly units.
 }
 
 STRING 5532
-// Items: shea (Scroll of Healing), Ubertip (Tooltip - Extended)
+// Items: I05T (Scroll of Healing), Ubertip (Tooltip - Extended)
 {
 Restores |cff32cd32700|r HP around hero.
 }
@@ -1824,7 +2106,7 @@ Wire String
 }
 
 STRING 5687
-// Items: I004 (Genin Cloth), Hotkey (Hotkey)
+// Items: I03X (Gunbai), Hotkey (Hotkey)
 {
 Z
 }
@@ -1857,7 +2139,7 @@ A special made metal that can be infused with chakra through chakra flow or elem
 }
 
 STRING 5806
-// Items: rwiz (|cffffcc00ANBU Mask|r), Name (Name)
+// Items: I08G (|cffffcc00ANBU Mask|r), Name (Name)
 {
 |cffffcc00ANBU Mask|r
 }
@@ -1869,7 +2151,7 @@ STRING 5857
 }
 
 STRING 5959
-// Items: I06B (|cff8b4600Legendary Weapon: Adamantine Staff|r), Description (Description)
+// Items: I06E (|cffFFFFE0Legendary Weapon: Perfect Battle Kunai), Description (Description)
 {
 Highest rank kunai weapon.
 }
@@ -1893,31 +2175,19 @@ A stone which is capable of absorbing yin energy of nearby enemies.|n|cff32cd32+
 }
 
 STRING 6119
-// Items: I06C (|cffB0B0B0Legendary Weapon: Iron Fan|r), Description (Description)
+// Items: I06F (|cffFFFFE0Legendary Weapon: Perfect Battle Shuriken), Description (Description)
 {
 Highest rank shuriken weapon.
 }
 
-STRING 6169
-// Items: I01U (ANBU Cloth), Ubertip (Tooltip - Extended)
-{
-A cloth worn by ANBU members.|n|cff32cd32+40 all stats|n+40 damage|n+20 armor|n - Reduce damage taken from normal jutsus by 20% |cffff0000(does not stack)|cff32cd32|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 6173
-// Items: clsd (Sanbi's Skin), Ubertip (Tooltip - Extended)
-{
-An armor made from the legendary three-tails' skin. |n|cff32cd32+10 Armor|n+15 all stats|n- Reduce damage taken from normal jutsus by 5%|n|cff87ceeb- Sanbi's Shell (active, cd: 60s):|n   Make the caster immune to negative spells during 4 seconds and reflects 50% of damage taken.|n|cffff0000Item Type: Cloth|r
-}
-
 STRING 6176
-// Items: I06D (|cffc600ffLegendary Weapon: Shinigami Mask|r), Description (Description)
+// Items: I06G (|cffFFFFE0Legendary Weapon: Perfect Battle Senbons), Description (Description)
 {
 Highest rank senbons weapon.
 }
 
 STRING 6256
-// Items: I03J (|cff5b85ffSamehada Sword|r), Hotkey (Hotkey)
+// Items: I05T (Scroll of Healing), Hotkey (Hotkey)
 {
 F
 }
@@ -1935,13 +2205,13 @@ C
 }
 
 STRING 6327
-// Items: shar (|cffff0000Yata Mirror|r), Ubertip (Tooltip - Extended)
+// Items: I082 (|cffff0000Yata Mirror|r), Ubertip (Tooltip - Extended)
 {
 Turn an unit invulnerable and esnared for |cff32cd323|r seconds (|cff32cd322 seconds|r if used on yourself).|n|cff87ceebCooldown: 60s|r|n|cffff0000Only one per team is allowed.|r
 }
 
 STRING 6399
-// Items: modt (Bingo Book), Name (Name)
+// Items: I085 (Bingo Book), Name (Name)
 {
 Bingo Book
 }
@@ -1965,13 +2235,13 @@ Purchase Executioner's Blade [|cffffcc00D|r]
 }
 
 STRING 6477
-// Items: shar (|cffff0000Yata Mirror|r), Description (Description)
+// Items: I082 (|cffff0000Yata Mirror|r), Description (Description)
 {
 Turn an unit invulnerable and esnared for |cff32cd323|r seconds (|cff32cd322 seconds|r if used on yourself).|n|cff87ceebCooldown: 60s|r|n|cffff0000Only one per team is allowed.|r
 }
 
 STRING 6498
-// Items: shas (Speed Pills), Name (Name)
+// Items: I04R (Speed Pills), Name (Name)
 {
 Speed Pills
 }
@@ -1983,7 +2253,7 @@ Sage Robe
 }
 
 STRING 6578
-// Items: sror (Attack Pills), Tip (Tooltip - Basic)
+// Items: I031 (Attack Pills), Tip (Tooltip - Basic)
 {
 Purchase Attack Pills [|cffffcc00W|r]
 }
@@ -1995,85 +2265,73 @@ Explosive Kunai infused with light. The carrier feels a holy aura coming from it
 }
 
 STRING 6592
-// Items: stel (Scroll of Teleportation), Hotkey (Hotkey)
+// Items: I03D (Combine: Super Boots), Hotkey (Hotkey)
 {
 A
 }
 
-STRING 6597
-// Items: I03K (|cffff0000Hokage Robe|r), Description (Description)
-{
-Rank VII cloth.
-}
-
 STRING 6599
-// Items: fgfh (Fire crackers), Hotkey (Hotkey)
+// Items: I03P (|cffc600ffOtokage Robe|r), Hotkey (Hotkey)
 {
 A
 }
 
 STRING 6603
-// Items: srbd (|cfffe0000Triple-Bladed Scythe|r), Hotkey (Hotkey)
+// Items: I00Y (Battle Kunai - |cffffcc00Level 1|r), Hotkey (Hotkey)
 {
 S
 }
 
 STRING 6604
-// Items: sres (Ichiraku Ramen (BIG)), Description (Description)
+// Items: I04Q (Ichiraku Ramen (BIG)), Description (Description)
 {
 Restores lost hit points over-time.
 }
 
 STRING 6606
-// Items: I007 (|cff00ff00Kusanagi Sword|r), Hotkey (Hotkey)
+// Items: I053 (Upgrade Super Boots), Hotkey (Hotkey)
 {
 A
 }
 
 STRING 6607
-// Items: rej3 (Ichiraku Ramen (Small)), Name (Name)
+// Items: I04S (Ichiraku Ramen (Small)), Name (Name)
 {
 Ichiraku Ramen (Small)
 }
 
 STRING 6608
-// Items: rej3 (Ichiraku Ramen (Small)), Tip (Tooltip - Basic)
+// Items: I04S (Ichiraku Ramen (Small)), Tip (Tooltip - Basic)
 {
 Purchase Ichiraku Ramen (SMALL) (|cffffcc00S|r)
 }
 
 STRING 6609
-// Items: rej3 (Ichiraku Ramen (Small)), Description (Description)
+// Items: I04S (Ichiraku Ramen (Small)), Description (Description)
 {
 Restores lost hit points over-time.
 }
 
 STRING 6613
-// Items: rwiz (|cffffcc00ANBU Mask|r), Tip (Tooltip - Basic)
+// Items: I07A (|cffff0000Konohagakure ANBU Mask|r), Tip (Tooltip - Basic)
 {
 Purchase Anbu Mask(|cffffcc00A|r)
 }
 
 STRING 6620
-// Items: I011 (|cffec6200Explosive Kunai|r), Hotkey (Hotkey)
+// Items: I070 (Mission: Bijuu Hunt Genjutsu), Hotkey (Hotkey)
 {
 A
 }
 
-STRING 6621
-// Items: I078 (|cffb04453Akatsuki Leader Set|r), Tip (Tooltip - Basic)
-{
-Purchase Akatsuki Cloth [|cffffcc00Q|r]
-}
-
 STRING 6626
-// Items: fwss (Ninja Bandana), Ubertip (Tooltip - Extended)
+// Items: I088 (Ninja Bandana), Ubertip (Tooltip - Extended)
 {
 The most important item for any ninja.|n|cff32cd32+10 all stats|n|cffff0000Item Type: Support|r
 }
 
 STRING 6631
-// Items: hbth (Uchiha Shield), Description (Description)
+// Items: I08C (Uchiha Shield), Description (Description)
 {
 |cff32cd32+5 all stats|n+20 armor|n|cffff0000Item Type: Support|r
 }
@@ -2085,13 +2343,13 @@ Upgrade your lvl. 10 weapon to a legendary weapon!|n|cffffcc00Requires:|r|n- Lev
 }
 
 STRING 6644
-// Items: I061 (|cffFFFFE0Spirit of Light|r), Hotkey (Hotkey)
+// Items: I084 (Ichiraku's Special Recipe), Hotkey (Hotkey)
 {
 F
 }
 
 STRING 6645
-// Items: sror (Attack Pills), Name (Name)
+// Items: I031 (Attack Pills), Name (Name)
 {
 Attack Pills
 }
@@ -2103,91 +2361,91 @@ Gives chakra points.
 }
 
 STRING 6647
-// Items: ckng (Scroll of Kage Bunshin), Hotkey (Hotkey)
+// Items: I02L (Combine: The Heaven Mirror), Hotkey (Hotkey)
 {
 S
 }
 
 STRING 6653
-// Items: shea (Scroll of Healing), Tip (Tooltip - Basic)
+// Items: I05T (Scroll of Healing), Tip (Tooltip - Basic)
 {
 Purchase Scroll of Healing [|cffffcc00F|r]
 }
 
 STRING 6654
-// Items: sreg (Curry of Life), Ubertip (Tooltip - Extended)
+// Items: I03W (Curry of Life), Ubertip (Tooltip - Extended)
 {
 Restores |cff32cd321500 HP|r over |cff32cd3215|r seconds.|n|cff87ceebDispel when attacked.|r
 }
 
 STRING 6660
-// Items: sman (Scroll of Chakra), Tip (Tooltip - Basic)
+// Items: I05O (Scroll of Chakra), Tip (Tooltip - Basic)
 {
 Purchase Scroll of Chakra [|cffffcc00D|r]
 }
 
 STRING 6662
-// Items: sand (Edo Tensei Scroll), Tip (Tooltip - Basic)
+// Items: I04O (Edo Tensei Scroll), Tip (Tooltip - Basic)
 {
 Purchase Edo Tensei Scroll [|cffffcc00A|r]
 }
 
 STRING 6666
-// Items: sand (Edo Tensei Scroll), Name (Name)
+// Items: I04O (Edo Tensei Scroll), Name (Name)
 {
 Edo Tensei Scroll
 }
 
 STRING 6667
-// Items: arsc (Arcane Scroll), Hotkey (Hotkey)
+// Items: I036 (|cffB0B0B0Spirit of Wind), Hotkey (Hotkey)
 {
 S
 }
 
 STRING 6668
-// Items: sror (Attack Pills), Ubertip (Tooltip - Extended)
+// Items: I031 (Attack Pills), Ubertip (Tooltip - Extended)
 {
 Increase nearby friendly units |cff32cd32100%|r damage during |cff32cd3215|r seconds.
 }
 
 STRING 6669
-// Items: arsc (Arcane Scroll), Tip (Tooltip - Basic)
+// Items: I030 (Arcane Scroll), Tip (Tooltip - Basic)
 {
 Purchase Arcane Scroll [|cffffcc00S|r]
 }
 
 STRING 6670
-// Items: odef (|cffc600ffSpirit of the Darkness|r), Name (Name)
+// Items: I07L (|cffc600ffSpirit of the Darkness|r), Name (Name)
 {
 |cffc600ffSpirit of the Darkness|r
 }
 
 STRING 6672
-// Items: I02N (Combine: The Heaven Stone), Hotkey (Hotkey)
+// Items: I07A (|cffff0000Konohagakure ANBU Mask|r), Hotkey (Hotkey)
 {
 A
 }
 
 STRING 6675
-// Items: ofir (|cffff0000Spirit of Fire|r), Name (Name)
+// Items: I081 (|cffff0000Spirit of Fire|r), Name (Name)
 {
 |cffff0000Spirit of Fire|r
 }
 
 STRING 6680
-// Items: oven (|cff8b4600Spirit of Earth|r), Name (Name)
+// Items: I06Q (|cff8b4600Spirit of Earth|r), Name (Name)
 {
 |cff8b4600Spirit of Earth|r
 }
 
 STRING 6685
-// Items: oli2 (|cfffffc00Spirit of Thunder|r), Name (Name)
+// Items: I083 (|cfffffc00Spirit of Thunder|r), Name (Name)
 {
 |cfffffc00Spirit of Thunder|r
 }
 
 STRING 6690
-// Items: ofro (|cff53a4ffSpirit of Water|r), Name (Name)
+// Items: I05Z (|cff53a4ffSpirit of Water|r), Name (Name)
 {
 |cff53a4ffSpirit of Water|r
 }
@@ -2199,43 +2457,43 @@ Purchase Spirit of Water [|cffffcc00W|r]
 }
 
 STRING 6695
-// Items: gsou (Soulabsorb Stone), Name (Name)
+// Items: I05V (Soulabsorb Stone), Name (Name)
 {
 Soulabsorb Stone
 }
 
 STRING 6696
-// Items: gsou (Soulabsorb Stone), Tip (Tooltip - Basic)
+// Items: I05V (Soulabsorb Stone), Tip (Tooltip - Basic)
 {
 Purchase Soulabsorb Stone [|cffffcc00Q|r]
 }
 
 STRING 6702
-// Items: gsou (Soulabsorb Stone), Ubertip (Tooltip - Extended)
+// Items: I05V (Soulabsorb Stone), Ubertip (Tooltip - Extended)
 {
 Item used to craft stronger equipments. Also can steal enemy's chakra.
 }
 
 STRING 6703
-// Items: gsou (Soulabsorb Stone), Description (Description)
+// Items: I05V (Soulabsorb Stone), Description (Description)
 {
 Item used to craft stronger equipments. Also can steal enemy's chakra.
 }
 
 STRING 6704
-// Items: pinv (Substitution Wood), Name (Name)
+// Items: I05X (Substitution Wood), Name (Name)
 {
 Substitution Wood
 }
 
 STRING 6708
-// Items: pinv (Substitution Wood), Tip (Tooltip - Basic)
+// Items: I05X (Substitution Wood), Tip (Tooltip - Basic)
 {
 Purchase Substitution Wood [|cffffcc00Q|r]
 }
 
 STRING 6713
-// Items: gcel (|cff106246The Heaven Sword|r), Name (Name)
+// Items: I08I (|cff106246The Heaven Sword|r), Name (Name)
 {
 |cff106246The Heaven Sword|r
 }
@@ -2247,31 +2505,31 @@ Tales Of A Gutsy Ninja
 }
 
 STRING 6720
-// Items: I038 (|cffff0000Kage Robe|r), Hotkey (Hotkey)
+// Items: I07B (|cff53a4ffKirigakure ANBU Mask|r), Hotkey (Hotkey)
 {
 A
 }
 
 STRING 6723
-// Items: rde4 (Jade of Susano'o), Name (Name)
+// Items: I086 (Jade of Susano'o), Name (Name)
 {
 Jade of Susano'o
 }
 
 STRING 6725
-// Items: I06E (|cffFFFFE0Legendary Weapon: Perfect Battle Kunai), Description (Description)
+// Items: I08M (|cffff0000Legendary Weapon: Kyuubi's Chakra Cloak|r), Description (Description)
 {
 Highest rank kunai weapon.
 }
 
 STRING 6730
-// Items: I00O (Combine: |cffb04453Akatsuki Ring|r), Hotkey (Hotkey)
+// Items: I03S (Fireworks!), Hotkey (Hotkey)
 {
 S
 }
 
 STRING 6748
-// Items: I06F (|cffFFFFE0Legendary Weapon: Perfect Battle Shuriken), Description (Description)
+// Items: I08N (|cfffffc00Legendary Weapon: Raijin no Ken|r), Description (Description)
 {
 Highest rank shuriken weapon.
 }
@@ -2283,19 +2541,19 @@ J
 }
 
 STRING 6753
-// Items: I012 (|cffFFFFE0Fuuma Shuriken|r), Hotkey (Hotkey)
+// Items: I056 (Upgrade Sanbi's Skin), Hotkey (Hotkey)
 {
 S
 }
 
 STRING 6759
-// Items: I06G (|cffFFFFE0Legendary Weapon: Perfect Battle Senbons), Description (Description)
+// Items: I08J (|cff53a4ffLegendary Weapon: Haku's Senbons|r), Description (Description)
 {
 Highest rank senbons weapon.
 }
 
 STRING 6760
-// Items: I03X (Gunbai), Hotkey (Hotkey)
+// Items: I04N (Merge: Elemental Ninja Weapon), Hotkey (Hotkey)
 {
 Z
 }
@@ -2307,7 +2565,7 @@ Requires:|n - Kage Robe|n - Any elemental spirit|n - Soulabsorb Stone
 }
 
 STRING 6800
-// Items: I00Y (Battle Kunai - |cffffcc00Level 1|r), Hotkey (Hotkey)
+// Items: I071 (Mission: Bijuu Hunt Ninjutsu), Hotkey (Hotkey)
 {
 S
 }
@@ -2319,13 +2577,13 @@ A necklace belonging to the Rikuudou sennin himself. It's said that whoever poss
 }
 
 STRING 6817
-// Items: phea (Vitality Pills), Name (Name)
+// Items: I05Y (Vitality Pills), Name (Name)
 {
 Vitality Pills
 }
 
 STRING 6835
-// Items: fgfh (Fire crackers), Name (Name)
+// Items: I04P (Fire crackers), Name (Name)
 {
 Fire crackers
 }
@@ -2337,7 +2595,7 @@ A necklace belonging to the Rikuudou sennin himself. It's said that whoever poss
 }
 
 STRING 6848
-// Items: I03D (Combine: Super Boots), Hotkey (Hotkey)
+// Items: I07C (|cfffffc00Kumogakure ANBU Mask|r), Hotkey (Hotkey)
 {
 A
 }
@@ -2355,13 +2613,13 @@ A special made metal infused with lightning.|n|cff32cd32+70 to all stats|n+20 Ni
 }
 
 STRING 6882
-// Items: I04N (Merge: Elemental Ninja Weapon), Hotkey (Hotkey)
+// Items: I05I (|cff6bfe62Medical Ninja Set|r), Hotkey (Hotkey)
 {
 Z
 }
 
 STRING 6895
-// Items: I03K (|cffff0000Hokage Robe|r), Hotkey (Hotkey)
+// Items: I07D (|cff8b4600Iwagakure ANBU Mask|r), Hotkey (Hotkey)
 {
 A
 }
@@ -2373,7 +2631,7 @@ Upgrade Cloth
 }
 
 STRING 6900
-// Items: I03Y (|cff4db948Stone of Greater Life|r), Hotkey (Hotkey)
+// Items: I03Z (|cff4db948Stone of Immortality|r), Hotkey (Hotkey)
 {
 X
 }
@@ -2391,13 +2649,13 @@ B
 }
 
 STRING 6941
-// Items: I02L (Combine: The Heaven Mirror), Hotkey (Hotkey)
+// Items: I030 (Arcane Scroll), Hotkey (Hotkey)
 {
 S
 }
 
 STRING 6953
-// Items: I03Z (|cff4db948Stone of Immortality|r), Hotkey (Hotkey)
+// Items: I040 (|cff4db948Ashura Essence|r), Hotkey (Hotkey)
 {
 X
 }
@@ -2433,19 +2691,19 @@ Genjutsu Trainning Book
 }
 
 STRING 6979
-// Items: I03L (|cff53a4ffMizukage Robe|r), Hotkey (Hotkey)
+// Items: I07E (|cffB0B0B0Sunagakure ANBU Mask|r), Hotkey (Hotkey)
 {
 A
 }
 
 STRING 6984
-// Items: I036 (|cffB0B0B0Spirit of Wind), Hotkey (Hotkey)
+// Items: I04Q (Ichiraku Ramen (BIG)), Hotkey (Hotkey)
 {
 S
 }
 
 STRING 6999
-// Items: hbth (Uchiha Shield), Ubertip (Tooltip - Extended)
+// Items: I08C (Uchiha Shield), Ubertip (Tooltip - Extended)
 {
 |cff32cd32+5 all stats|n+6 armor|n|cffff0000Item Type: Support|r
 }
@@ -2463,15 +2721,9 @@ Purchase Tales Of A Gutsy Ninja [|cffffcc00R|r]
 }
 
 STRING 7003
-// Items: I03S (Fireworks!), Hotkey (Hotkey)
+// Items: I04S (Ichiraku Ramen (Small)), Hotkey (Hotkey)
 {
 S
-}
-
-STRING 7018
-// Items: I00X (|cff39e30cPoison Pills|r), Ubertip (Tooltip - Extended)
-{
-A basic ninja weapon. Throws a pill which creates a venomous mist, dealing damage-over-time and slowing down all nearby enemies.|n|cff32cd32Deals 220 damage per second for 11 seconds around 300 radius. Also slow affected enemies by 35%.|n|cff87ceebCooldown: 40s|r|n|cffff0000Item Type: Ninja Weapon|r
 }
 
 STRING 7038
@@ -2487,19 +2739,19 @@ _____(|cffffcc00B|r)
 }
 
 STRING 7075
-// Items: phea (Vitality Pills), Tip (Tooltip - Basic)
+// Items: I05Y (Vitality Pills), Tip (Tooltip - Basic)
 {
 Purchase Vitality Pills [|cffffcc00Q|r]
 }
 
 STRING 7076
-// Items: pman (Chakra Pills), Name (Name)
+// Items: I035 (Chakra Pills), Name (Name)
 {
 Chakra Pills
 }
 
 STRING 7077
-// Items: pman (Chakra Pills), Tip (Tooltip - Basic)
+// Items: I035 (Chakra Pills), Tip (Tooltip - Basic)
 {
 Purchase Chakra Pills [|cffffcc00W|r]
 }
@@ -2511,7 +2763,7 @@ Stone of Creation
 }
 
 STRING 7081
-// Items: I040 (|cff4db948Ashura Essence|r), Hotkey (Hotkey)
+// Items: I04T (Rikuudou Necklace), Hotkey (Hotkey)
 {
 X
 }
@@ -2535,7 +2787,7 @@ Purchase Stone of Gelel [|cffffcc00X|r]
 }
 
 STRING 7088
-// Items: I04T (Rikuudou Necklace), Hotkey (Hotkey)
+// Items: I05G (Medical Scalpel), Hotkey (Hotkey)
 {
 X
 }
@@ -2583,7 +2835,7 @@ Upgrade your weapon.|n|cffff0000Highest level: 10|r
 }
 
 STRING 7106
-// Items: I05I (|cff6bfe62Medical Ninja Set|r), Hotkey (Hotkey)
+// Items: I05R (Combine: Juubi's Skin), Hotkey (Hotkey)
 {
 Z
 }
@@ -2595,7 +2847,7 @@ Upgrade Shoes
 }
 
 STRING 7125
-// Items: I03M (|cff8b4600Tsuchikage Robe|r), Hotkey (Hotkey)
+// Items: I07F (|cffc600ffOtogakure ANBU Mask|r), Hotkey (Hotkey)
 {
 A
 }
@@ -2613,7 +2865,7 @@ Purchase Stone of Gelel [|cffffcc00X|r]
 }
 
 STRING 7158
-// Items: I05G (Medical Scalpel), Hotkey (Hotkey)
+// Items: I05J (Combine: Medical Ninja Set), Hotkey (Hotkey)
 {
 X
 }
@@ -2661,7 +2913,7 @@ Legendary sword owned by Orochimaru. It has a strong power.|n|cff32cd32+10 to al
 }
 
 STRING 7189
-// Items: I05R (Combine: Juubi's Skin), Hotkey (Hotkey)
+// Items: I06P (Blasting Sphere), Hotkey (Hotkey)
 {
 Z
 }
@@ -2679,13 +2931,13 @@ Purchase Flash Bomb [|cffffcc00F|r]
 }
 
 STRING 7221
-// Items: I05J (Combine: Medical Ninja Set), Hotkey (Hotkey)
+// Items: I05S (Wire String), Hotkey (Hotkey)
 {
 X
 }
 
 STRING 7231
-// Items: I06P (Blasting Sphere), Hotkey (Hotkey)
+// Items: I07M (|cff2e86c1Chakra Blades -|r |cffffcc00Level 1|r), Hotkey (Hotkey)
 {
 Z
 }
@@ -2697,13 +2949,13 @@ Combine: Ultimate Weapon
 }
 
 STRING 7236
-// Items: I03N (|cffffff00Raikage Robe|r), Hotkey (Hotkey)
+// Items: I07G (|cffFFFFE0Sage ANBU Mask|r), Hotkey (Hotkey)
 {
 A
 }
 
 STRING 7246
-// Items: I03O (Kazekage Robe), Hotkey (Hotkey)
+// Items: I04O (Edo Tensei Scroll), Hotkey (Hotkey)
 {
 A
 }
@@ -2727,13 +2979,13 @@ Purchase Stone of Gelel [|cffffcc00X|r]
 }
 
 STRING 7292
-// Items: I05S (Wire String), Hotkey (Hotkey)
+// Items: I06J (Yangabsorb Stone), Hotkey (Hotkey)
 {
 X
 }
 
 STRING 7293
-// Items: I06J (Yangabsorb Stone), Hotkey (Hotkey)
+// Items: I06K (Yinabsorb Stone), Hotkey (Hotkey)
 {
 X
 }
@@ -2745,25 +2997,25 @@ Combine: Medical Ninja Set
 }
 
 STRING 7304
-// Items: I03P (|cffc600ffOtokage Robe|r), Hotkey (Hotkey)
+// Items: I04P (Fire crackers), Hotkey (Hotkey)
 {
 A
 }
 
 STRING 7317
-// Items: I07M (|cff2e86c1Chakra Blades -|r |cffffcc00Level 1|r), Hotkey (Hotkey)
+// Items: I05M (Medical Aid Kit), Hotkey (Hotkey)
 {
 Z
 }
 
 STRING 7338
-// Items: I06K (Yinabsorb Stone), Hotkey (Hotkey)
+// Items: I06L (Stone of Creation), Hotkey (Hotkey)
 {
 X
 }
 
 STRING 7361
-// Items: I053 (Upgrade Super Boots), Hotkey (Hotkey)
+// Items: I081 (|cffff0000Spirit of Fire|r), Hotkey (Hotkey)
 {
 A
 }
@@ -2775,7 +3027,7 @@ STRING 7381
 }
 
 STRING 7383
-// Items: modt (Bingo Book), Tip (Tooltip - Basic)
+// Items: I085 (Bingo Book), Tip (Tooltip - Basic)
 {
 Purchase Bingo Book [|cffffcc00Q|r]
 }
@@ -2805,7 +3057,7 @@ Combine: Stone of Creation [|cffffcc00X|r]
 }
 
 STRING 7464
-// Items: fgfh (Fire crackers), Tip (Tooltip - Basic)
+// Items: I04P (Fire crackers), Tip (Tooltip - Basic)
 {
 Purchase Fire Crackers [|cffffcc00A|r]
 }
@@ -2817,13 +3069,13 @@ STRING 7502
 }
 
 STRING 7513
-// Items: I06L (Stone of Creation), Hotkey (Hotkey)
+// Items: I06M (Combine: Stone of Creation), Hotkey (Hotkey)
 {
 X
 }
 
 STRING 7520
-// Items: pres (Attack Pills), Tip (Tooltip - Basic)
+// Items: I034 (Attack Pills), Tip (Tooltip - Basic)
 {
 Purchase Attack Pills [|cffffcc00E|r]
 }
@@ -2858,14 +3110,8 @@ STRING 7728
 |cffff0000Hokage Robe|r
 }
 
-STRING 7731
-// Items: I03L (|cff53a4ffMizukage Robe|r), Description (Description)
-{
-Rank VII cloth.
-}
-
 STRING 7732
-// Items: I02Z (Sage Robe), Hotkey (Hotkey)
+// Items: I088 (Ninja Bandana), Hotkey (Hotkey)
 {
 A
 }
@@ -2876,14 +3122,8 @@ STRING 7736
 |cff53a4ffMizukage Robe|r
 }
 
-STRING 7738
-// Items: I03M (|cff8b4600Tsuchikage Robe|r), Description (Description)
-{
-Rank VII cloth.
-}
-
 STRING 7741
-// Items: I070 (Mission: Bijuu Hunt Genjutsu), Hotkey (Hotkey)
+// Items: I08B (Scroll of Teleportation), Hotkey (Hotkey)
 {
 A
 }
@@ -2894,38 +3134,8 @@ STRING 7743
 |cff8b4600Tsuchikage Robe|r
 }
 
-STRING 7796
-// Items: I03N (|cffffff00Raikage Robe|r), Description (Description)
-{
-Rank VII cloth.
-}
-
 STRING 7802
-// Items: I07A (|cffff0000Konohagakure ANBU Mask|r), Hotkey (Hotkey)
-{
-A
-}
-
-STRING 7809
-// Items: I03O (Kazekage Robe), Description (Description)
-{
-Rank VII cloth.
-}
-
-STRING 7810
-// Items: I07B (|cff53a4ffKirigakure ANBU Mask|r), Hotkey (Hotkey)
-{
-A
-}
-
-STRING 7825
-// Items: I03P (|cffc600ffOtokage Robe|r), Description (Description)
-{
-Rank VII cloth.
-}
-
-STRING 7826
-// Items: I07C (|cfffffc00Kumogakure ANBU Mask|r), Hotkey (Hotkey)
+// Items: I08G (|cffffcc00ANBU Mask|r), Hotkey (Hotkey)
 {
 A
 }
@@ -2936,20 +3146,14 @@ STRING 7827
 |cffc600ffOtokage Robe|r
 }
 
-STRING 7829
-// Items: I02Z (Sage Robe), Description (Description)
-{
-Rank VII cloth.
-}
-
 STRING 7853
-// Items: clsd (Sanbi's Skin), Tip (Tooltip - Basic)
+// Items: I02U (Sanbi's Skin), Tip (Tooltip - Basic)
 {
 Purchase Sanbi's Skin [|cffffcc00W|r]
 }
 
 STRING 7855
-// Items: clsd (Sanbi's Skin), Name (Name)
+// Items: I02U (Sanbi's Skin), Name (Name)
 {
 Sanbi's Skin
 }
@@ -3061,17 +3265,8 @@ STRING 8295
 Pain's Akatsuki Ring.|n|cff32cd32+20 all stats|n+Increase damage done by 10% against heroes.|n+Hero Passive(Increase the damage of Shinra Giga Tensei to 25 x Gen against buildings)|n+Hero Passive (Animal Path) (Ox slows)
 }
 
-STRING 8312
-// Items: I03L (|cff53a4ffMizukage Robe|r), Ubertip (Tooltip - Extended)
-{
-Cloth worn by the most important ninja of Kirigakure.|n|cff32cd32+70 all stats|n+30 genjutsu
-+100 damage
-+50 armor
-- Reduce damage taken from normal jutsus by 50% |cffff0000(does not stack)|cff32cd32|n- 20% slow aura in 800 range|n- Chilling Attack (passive, slow by 50% during 1 second)|n|cffff0000Item Type: Cloth|r
-}
-
 STRING 8332
-// Items: pres (Attack Pills), Name (Name)
+// Items: I034 (Attack Pills), Name (Name)
 {
 Attack Pills
 }
@@ -3083,7 +3278,7 @@ STRING 8420
 }
 
 STRING 8424
-// Items: pomn (Ninja Net), Tip (Tooltip - Basic)
+// Items: I05N (Ninja Net), Tip (Tooltip - Basic)
 {
 Purchase Ninja Net [|cffffcc00E|r]
 }
@@ -3092,12 +3287,6 @@ STRING 8431
 // Items: I01X (|cff437abbZero Ring|r), Description (Description)
 {
 Pain's Akatsuki Ring.|n|cff32cd32+20 all stats|n+Increase damage done by 10% against heroes.|n+Hero Passive(Increase the damage of Shinra Giga Tensei to 25 x Gen against buildings)|n+Hero Passive (Animal Path) (Ox slows)
-}
-
-STRING 8449
-// Items: I05Q (|cffa19e96Juubi's Skin|r), Tip (Tooltip - Basic)
-{
-Purchase Juubi's Skin [|cffffcc00W|r]
 }
 
 STRING 8500
@@ -3125,7 +3314,7 @@ Makes you feel good and all those bad ghosts will wuzz out!
 }
 
 STRING 8676
-// Items: phea (Vitality Pills), Ubertip (Tooltip - Extended)
+// Items: I05Y (Vitality Pills), Ubertip (Tooltip - Extended)
 {
 Restores |cff32cd32150|r HP each use.
 }
@@ -3137,15 +3326,9 @@ Purchase Fireworks [|cffffcc00S|r]
 }
 
 STRING 8693
-// Items: pman (Chakra Pills), Ubertip (Tooltip - Extended)
+// Items: I035 (Chakra Pills), Ubertip (Tooltip - Extended)
 {
 Restores |cff32cd32100|r chakra each use.
-}
-
-STRING 8715
-// Items: I06P (Blasting Sphere), Ubertip (Tooltip - Extended)
-{
-Deals |cff32cd323 X Taijutsu + 3 x Ninjutsu + 2 x Genjutsu|r to the first enemy in a line and esnare it for 2s.|n|cff87ceebCooldown: 40s.|r|n|cffff0000Classification: Ninja Weapon|r
 }
 
 STRING 8721
@@ -3193,14 +3376,8 @@ STRING 8999
 .
 }
 
-STRING 9060
-// Items: I03R (Bashosen), Ubertip (Tooltip - Extended)
-{
-Deals |cff32cd323.0 X Taijutsu + 3.0 X Ninjutsu + 3.0 X Genjutsu|r in a fan-like area (good against buildings).|n|cff87ceebCooldown: 40s.|r|n|cffff0000Classification: Ninja Weapon|r
-}
-
 STRING 9088
-// Items: sreg (Curry of Life), Name (Name)
+// Items: I03W (Curry of Life), Name (Name)
 {
 Curry of Life
 }
@@ -3212,49 +3389,43 @@ A special made metal infused with darkness.|n|cff32cd32+80 to all stats|n+150 da
 }
 
 STRING 9514
-// Items: fwss (Ninja Bandana), Description (Description)
+// Items: I088 (Ninja Bandana), Description (Description)
 {
 The most important item for any ninja.|n|cff32cd32+10 all stats|n|cffff0000Item Type: Support|r
 }
 
-STRING 9515
-// Items: I020 (|cffec6200Oil|r), Description (Description)
-{
-A basic ninja weapon. Throws a combustible that ignites when it touches the ground, dealing damage-over-time to nearby enemies.|n|cff32cd32Deals 220 damage per second during 4 seconds in 400 radius.|r|n|cff87ceebCooldown: 30s|r|n|cffff0000Item Type: Ninja Weapon.|r
-}
-
 STRING 9516
-// Items: shea (Scroll of Healing), Description (Description)
+// Items: I05T (Scroll of Healing), Description (Description)
 {
 Restores |cff32cd32700|r HP around hero.
 }
 
 STRING 9517
-// Items: sreg (Curry of Life), Description (Description)
+// Items: I03W (Curry of Life), Description (Description)
 {
 Restores |cff32cd321500 HP|r over |cff32cd3215|r seconds.|n|cff87ceebDispel when attacked.|r
 }
 
 STRING 9518
-// Items: sman (Scroll of Chakra), Ubertip (Tooltip - Extended)
+// Items: I05O (Scroll of Chakra), Ubertip (Tooltip - Extended)
 {
 Restores |cff32cd321000|r chakra points around the user.
 }
 
 STRING 9544
-// Items: pmna (|cff2d96d9Stone of Chakra|r), Name (Name)
+// Items: I08E (|cff2d96d9Stone of Chakra|r), Name (Name)
 {
 |cff2d96d9Stone of Chakra|r
 }
 
 STRING 9546
-// Items: sror (Attack Pills), Description (Description)
+// Items: I031 (Attack Pills), Description (Description)
 {
 Increase nearby friendly units |cff32cd32100%|r damage during |cff32cd3215|r seconds.
 }
 
 STRING 9556
-// Items: brag (|cffb04453Akatsuki Ring|r), Name (Name)
+// Items: I08F (|cffb04453Akatsuki Ring|r), Name (Name)
 {
 |cffb04453Akatsuki Ring|r
 }
@@ -3272,7 +3443,7 @@ Combine: |cffb04453Akatsuki Ring|r [|cffffcc00S|r]
 }
 
 STRING 9563
-// Items: wild (Scroll of Summoning), Description (Description)
+// Items: I05U (Scroll of Summoning), Description (Description)
 {
 Summon a Medical Slug to help you in the fight.
 }
@@ -3283,40 +3454,28 @@ STRING 9588
 |cff4db948Stone of Life|r
 }
 
-STRING 9597
-// Items: I020 (|cffec6200Oil|r), Ubertip (Tooltip - Extended)
-{
-A basic ninja weapon. Throws a combustible that ignites when it touches the ground, dealing damage-over-time to nearby enemies.|n|cff32cd32Deals 220 damage per second during 4 seconds in 400 radius.|r|n|cff87ceebCooldown: 30s|r|n|cffff0000Item Type: Ninja Weapon.|r
-}
-
 STRING 9598
-// Items: arsc (Arcane Scroll), Description (Description)
+// Items: I030 (Arcane Scroll), Description (Description)
 {
 A powerful scroll that restores |cff32cd32500|r hit points, |cff32cd32300|r chakra, and grants |cff32cd3210|r bonus armor to nearby friendly units.
 }
 
 STRING 9600
-// Items: whwd (Medical Aid Kit), Ubertip (Tooltip - Extended)
+// Items: I05M (Medical Aid Kit), Ubertip (Tooltip - Extended)
 {
 Heals |cff32cd322%|r HP per second during |cff32cd3215|r seconds!|n|cff87ceebCooldown: 80s|r
 }
 
 STRING 9606
-// Items: phea (Vitality Pills), Description (Description)
+// Items: I05Y (Vitality Pills), Description (Description)
 {
 Restores |cff32cd32150|r HP each use.
 }
 
 STRING 9608
-// Items: pman (Chakra Pills), Description (Description)
+// Items: I035 (Chakra Pills), Description (Description)
 {
 Restores |cff32cd32100|r chakra each use.
-}
-
-STRING 9620
-// Items: I06P (Blasting Sphere), Description (Description)
-{
-Deals |cff32cd323 X Taijutsu + 3 x Ninjutsu + 2 x Genjutsu|r to the first enemy in a line and esnare it for 2s.|n|cff87ceebCooldown: 40s.|r|n|cffff0000Classification: Ninja Weapon|r
 }
 
 STRING 9632
@@ -3335,12 +3494,6 @@ STRING 9638
 // Items: I02I (Combine: ANBU Mask), Ubertip (Tooltip - Extended)
 {
 |cffffcc00Requires:|r|n- Bingo Book|n- Ninja Bandana
-}
-
-STRING 9651
-// Items: I02R (Bomb), Description (Description)
-{
-A strategic ninja weapon. Implant a bomb, which deals |cff32cd32800|r damage and stuns during |cff32cd322|r seconds to the first enemy which walks by.|n|cff87ceebCooldown: 30s|r|n|cffff0000Item Type: Ninja Weapon|r
 }
 
 STRING 9656
@@ -3388,18 +3541,6 @@ STRING 9761
 Akatsuki Organization
 }
 
-STRING 9779
-// Items: I02R (Bomb), Ubertip (Tooltip - Extended)
-{
-A strategic ninja weapon. Implant a bomb, which deals |cff32cd32800|r damage and stuns during |cff32cd322|r seconds to the first enemy which walks by.|n|cff87ceebCooldown: 30s|r|n|cffff0000Item Type: Ninja Weapon|r
-}
-
-STRING 9780
-// Items: I02Q (Timed Explosive Tag), Description (Description)
-{
-A strategic ninja weapon. Deals |cff32cd321000|r damage in a huge area after |cff32cd323|r seconds.|n|cff87ceebAffect allies.|r|n|cffff0000Item Type: Ninja Weapon|r
-}
-
 STRING 9783
 // Items: I02V (Legendary weapons here!), Ubertip (Tooltip - Extended)
 {
@@ -3416,12 +3557,6 @@ STRING 9801
 // Items: I03Q (Combine: Elemental Kage Robe), Ubertip (Tooltip - Extended)
 {
 Requires:|n - Kage Robe|n - Any elemental spirit|n - Soulabsorb Stone
-}
-
-STRING 9802
-// Items: I03R (Bashosen), Description (Description)
-{
-Deals |cff32cd323.0 X Taijutsu + 3.0 X Ninjutsu + 3.0 X Genjutsu|r in a fan-like area (good against buildings).|n|cff87ceebCooldown: 40s.|r|n|cffff0000Classification: Ninja Weapon|r
 }
 
 STRING 9803
@@ -3448,18 +3583,6 @@ STRING 9810
 Indra Essence [|cffffcc00W|r]
 }
 
-STRING 9811
-// Items: clsd (Sanbi's Skin), Description (Description)
-{
-An armor made from the legendary three-tails' skin. |n|cff32cd32+10 Armor|n+15 all stats|n- Reduce damage taken from normal jutsus by 5%|n|cff87ceeb- Sanbi's Shell (active, cd: 60s):|n   Make the caster immune to negative spells during 4 seconds and reflects 50% of damage taken.|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 9812
-// Items: I003 (Jounin Cloth), Description (Description)
-{
-Rank III cloth.
-}
-
 STRING 9813
 // Items: I003 (Jounin Cloth), Name (Name)
 {
@@ -3476,18 +3599,6 @@ STRING 9815
 // Items: I004 (Genin Cloth), Tip (Tooltip - Basic)
 {
 Purchase Genin Cloth [|cffffcc00Z|r]
-}
-
-STRING 9867
-// Items: I012 (|cffFFFFE0Fuuma Shuriken|r), Description (Description)
-{
-A high-level ninja weapon. Throws a shuriken which slashes all enemies in line..|n|cff32cd32Damage:|r |cff87ceeb7 x Ninjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Casting range:|r 950|n|cff32cd32Area of Effect:|r 220|n|cff32cd32Cooldown:|r 50s|n|r|cffff0000Item Type: Ninja Weapon|r
-}
-
-STRING 9868
-// Items: I012 (|cffFFFFE0Fuuma Shuriken|r), Ubertip (Tooltip - Extended)
-{
-A high-level ninja weapon. Throws a shuriken which slashes all enemies in line..|n|cff32cd32Damage:|r |cff87ceeb7 x Ninjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Casting range:|r 950|n|cff32cd32Area of Effect:|r 220|n|cff32cd32Cooldown:|r 50s|n|r|cffff0000Item Type: Ninja Weapon|r
 }
 
 STRING 9873
@@ -3539,7 +3650,7 @@ STRING 9884
 }
 
 STRING 9889
-// Items: sand (Edo Tensei Scroll), Ubertip (Tooltip - Extended)
+// Items: I04O (Edo Tensei Scroll), Ubertip (Tooltip - Extended)
 {
 Raises |cff32cd326|r nearby dead units to fight for |cff32cd3240|r seconds.
 }
@@ -3557,31 +3668,31 @@ Kunai infused with the earth. The carrier feels stronger while holding this weap
 }
 
 STRING 9940
-// Items: shas (Speed Pills), Ubertip (Tooltip - Extended)
-{
-The Ninja and nearby allies will move at maximum speed during |cff32cd326|r seconds.
-}
-
-STRING 9950
-// Items: shas (Speed Pills), Description (Description)
-{
-The Ninja and nearby allies will move at maximum speed during |cff32cd326|r seconds.
-}
-
-STRING 9951
-// Items: sand (Edo Tensei Scroll), Description (Description)
-{
-Raises |cff32cd326|r nearby dead units to fight for |cff32cd3240|r seconds.
-}
-
-STRING 9952
 // Items: I04R (Speed Pills), Ubertip (Tooltip - Extended)
 {
 The Ninja and nearby allies will move at maximum speed during |cff32cd326|r seconds.
 }
 
-STRING 9953
+STRING 9950
 // Items: I04R (Speed Pills), Description (Description)
+{
+The Ninja and nearby allies will move at maximum speed during |cff32cd326|r seconds.
+}
+
+STRING 9951
+// Items: I04O (Edo Tensei Scroll), Description (Description)
+{
+Raises |cff32cd326|r nearby dead units to fight for |cff32cd3240|r seconds.
+}
+
+STRING 9952
+// Items: I05W (Speed Pills), Ubertip (Tooltip - Extended)
+{
+The Ninja and nearby allies will move at maximum speed during |cff32cd326|r seconds.
+}
+
+STRING 9953
+// Items: I05W (Speed Pills), Description (Description)
 {
 The Ninja and nearby allies will move at maximum speed during |cff32cd326|r seconds.
 }
@@ -3599,19 +3710,19 @@ STRING 9955
 }
 
 STRING 9957
-// Items: hbth (Uchiha Shield), Name (Name)
+// Items: I08C (Uchiha Shield), Name (Name)
 {
 Uchiha Shield
 }
 
 STRING 9971
-// Items: I06M (Combine: Stone of Creation), Hotkey (Hotkey)
+// Items: I06O (Chain), Hotkey (Hotkey)
 {
 X
 }
 
 STRING 9999
-// Items: I06O (Chain), Hotkey (Hotkey)
+// Items: I082 (|cffff0000Yata Mirror|r), Hotkey (Hotkey)
 {
 X
 }
@@ -3640,12 +3751,6 @@ STRING 10010
 Shuriken infused with thunder. Sparks can be seen racing across the weapon.|n|cff32cd32+600 hit points|n+80 ninjutsu points|n- Chain Lightning (passive, 5% chance to deal 300 damage)|n|cffff0000Item-Type: Weapon|r
 }
 
-STRING 10019
-// Items: I005 (Chunnin Cloth), Description (Description)
-{
-Rank II cloth.
-}
-
 STRING 10020
 // Items: I006 (|cff106246The Heaven Mirror|r), Ubertip (Tooltip - Extended)
 {
@@ -3656,15 +3761,6 @@ STRING 10021
 // Items: I006 (|cff106246The Heaven Mirror|r), Description (Description)
 {
 One of the three legendary items. It can help user's defense.|n|cff32cd32+40 all stats|n+30 armor|n- Reduce damage taken from normal jutsus by 35% |cffff0000(does not stack)|r|cff32cd32|n- True Sight|n- Spell Shield (passive, cd: 20s)|n|cffff0000Item Type: Support|r
-}
-
-STRING 10022
-// Items: I03O (Kazekage Robe), Ubertip (Tooltip - Extended)
-{
-Cloth worn by the most important ninja of Sunagakure.|n|cff32cd32+70 all stats|n+20 ninjutsu
-+100 damage
-+50 armor
-- Reduce damage taken from normal jutsus by 50% |cffff0000(does not stack)|cff32cd32|n- Evasion Aura (passive, 25% to evade attacks)|n- Critical Strike (passive, 25% to deal 10 x damage)|n- Spell Critical Strike (passive, 10% for spells to deal 20% more damage)|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 10024
@@ -3751,12 +3847,6 @@ STRING 10292
 Senbons infused with water. The carrier can feel a soothing aura coming from this weapon.|n|cff32cd32+600 hit points|n+80 genjutsu points|n- Chilling Attack (passive)|n|cffff0000Item-Type: Weapon|r
 }
 
-STRING 10300
-// Items: I07D (|cff8b4600Iwagakure ANBU Mask|r), Hotkey (Hotkey)
-{
-A
-}
-
 STRING 10311
 // Items: I02A (|cff53a4ffWater Senbons|r), Description (Description)
 {
@@ -3782,7 +3872,7 @@ Increase user moving speed, hp and chakra.
 }
 
 STRING 10325
-// Items: mcou (Mirrored Shield), Tip (Tooltip - Basic)
+// Items: I087 (Mirrored Shield), Tip (Tooltip - Basic)
 {
 Purchase Mirrored Shield [|cffffcc00E|r]
 }
@@ -3818,7 +3908,7 @@ Purchase Battle Senbons Lvl. 1 [|cffffcc00D|r]
 }
 
 STRING 10333
-// Items: I04R (Speed Pills), Name (Name)
+// Items: I05W (Speed Pills), Name (Name)
 {
 Speed Pills
 }
@@ -3848,7 +3938,7 @@ Purchase Stone of Life [|cffffcc00X|r]
 }
 
 STRING 10345
-// Items: I056 (Upgrade Sanbi's Skin), Hotkey (Hotkey)
+// Items: I08A (Scroll of Kage Bunshin), Hotkey (Hotkey)
 {
 S
 }
@@ -4010,15 +4100,9 @@ Battle Shuriken - |cffffcc00Level 5|r
 }
 
 STRING 10417
-// Items: wild (Scroll of Summoning), Tip (Tooltip - Basic)
+// Items: I05U (Scroll of Summoning), Tip (Tooltip - Basic)
 {
 Purchase Scroll of Summoning [|cffffcc00W|r]
-}
-
-STRING 10418
-// Items: I079 (|cffb04453Akatsuki Leader Set|r), Tip (Tooltip - Basic)
-{
-Purchase Akatsuki Cloth [|cffffcc00Q|r]
 }
 
 STRING 10419
@@ -4046,7 +4130,7 @@ Battle Shuriken - |cffffcc00Level 9|r
 }
 
 STRING 10430
-// Items: rej3 (Ichiraku Ramen (Small)), Ubertip (Tooltip - Extended)
+// Items: I04S (Ichiraku Ramen (Small)), Ubertip (Tooltip - Extended)
 {
 Restores |cff32cd322000|r HP during |cff32cd3210|r seconds. |cff87ceebEffect will be dispelled when attacked.|r
 }
@@ -4057,14 +4141,8 @@ STRING 10431
 Battle Shuriken - |cFF66FFCCLevel MAX|r
 }
 
-STRING 10432
-// Items: I07E (|cffB0B0B0Sunagakure ANBU Mask|r), Hotkey (Hotkey)
-{
-A
-}
-
 STRING 10433
-// Items: hbth (Uchiha Shield), Tip (Tooltip - Basic)
+// Items: I08C (Uchiha Shield), Tip (Tooltip - Basic)
 {
 Purchase Uchiha Shield [|cffffcc00E|r]
 }
@@ -4124,7 +4202,7 @@ Battle Senbons - |cFF66FFCCLevel 4|r
 }
 
 STRING 10445
-// Items: frgd (Uchiha Sword), Name (Name)
+// Items: I08H (Uchiha Sword), Name (Name)
 {
 Uchiha Sword
 }
@@ -4136,7 +4214,7 @@ Battle Senbons - |cFF66FFCCLevel 5|r
 }
 
 STRING 10448
-// Items: frgd (Uchiha Sword), Tip (Tooltip - Basic)
+// Items: I08H (Uchiha Sword), Tip (Tooltip - Basic)
 {
 Purchase Uchiha Sword [|cffffcc00R|r]
 }
@@ -4213,28 +4291,10 @@ STRING 10464
 |cffffcc00Requires:|r|n- Mirrored Shield|n- ANBU Mask
 }
 
-STRING 10465
-// Items: I01U (ANBU Cloth), Name (Name)
-{
-ANBU Cloth
-}
-
-STRING 10467
-// Items: I01U (ANBU Cloth), Description (Description)
-{
-Rank IV cloth.
-}
-
 STRING 10468
 // Items: I01V (Sannin Cloth), Name (Name)
 {
 Sannin Cloth
-}
-
-STRING 10470
-// Items: I01V (Sannin Cloth), Description (Description)
-{
-Rank V cloth.
 }
 
 STRING 10472
@@ -4435,12 +4495,6 @@ STRING 10562
 Purchase Timed Explosive Tag [|cffffcc00F|r]
 }
 
-STRING 10564
-// Items: I02Q (Timed Explosive Tag), Ubertip (Tooltip - Extended)
-{
-A strategic ninja weapon. Deals |cff32cd321000|r damage in a huge area after |cff32cd323|r seconds.|n|cff87ceebAffect allies.|r|n|cffff0000Item Type: Ninja Weapon|r
-}
-
 STRING 10565
 // Items: I02R (Bomb), Tip (Tooltip - Basic)
 {
@@ -4475,12 +4529,6 @@ STRING 10583
 // Items: I038 (|cffff0000Kage Robe|r), Tip (Tooltip - Basic)
 {
 Buy Kage Robe [|cffffcc00A|r]
-}
-
-STRING 10585
-// Items: I038 (|cffff0000Kage Robe|r), Description (Description)
-{
-Rank VI cloth.
 }
 
 STRING 10586
@@ -4619,7 +4667,7 @@ Player 9
 }
 
 STRING 11431
-// Items: I071 (Mission: Bijuu Hunt Ninjutsu), Hotkey (Hotkey)
+// Items: I08L (|cfffe0000Triple-Bladed Scythe|r), Hotkey (Hotkey)
 {
 S
 }
@@ -4648,19 +4696,19 @@ Spectators
 }
 
 STRING 12241
-// Items: stel (Scroll of Teleportation), Description (Description)
+// Items: I08B (Scroll of Teleportation), Description (Description)
 {
 Teleport you to location.|n|cff32cd32+20 Ninjutsu|n+10 Genjutsu|n- Blink (active, rng: 800, cd: 35s)|n|cffff0000Item Type: Support|r
 }
 
 STRING 12251
-// Items: ratf (Scroll of Invisibility), Ubertip (Tooltip - Extended)
+// Items: I089 (Scroll of Invisibility), Ubertip (Tooltip - Extended)
 {
 Make you invisible during some time.|n|cff32cd32+20 Genjutsu|n+10 Ninjutsu|n- Invisibility Jutsu (active, maximum movement and invisibility to nearby allies, cd: 40s)|n|cffff0000Item Type: Support|r
 }
 
 STRING 12252
-// Items: ratf (Scroll of Invisibility), Description (Description)
+// Items: I089 (Scroll of Invisibility), Description (Description)
 {
 Make you invisible during some time.|n|cff32cd32+20 Genjutsu|n+10 Ninjutsu|n- Invisibility Jutsu (active, maximum movement and invisibility to nearby allies, cd: 40s)|n|cffff0000Item Type: Support|r
 }
@@ -4696,21 +4744,9 @@ STRING 12288
 }
 
 STRING 12327
-// Items: whwd (Medical Aid Kit), Description (Description)
+// Items: I05M (Medical Aid Kit), Description (Description)
 {
 Heals |cff32cd322%|r HP per second during |cff32cd3215|r seconds!|n|cff87ceebCooldown: 80s|r
-}
-
-STRING 12349
-// Items: I054 (Sanbi's Hardened Skin), Tip (Tooltip - Basic)
-{
-Purchase Sanbi's Skin [|cffffcc00W|r]
-}
-
-STRING 12432
-// Items: I055 (Sanbi's Impenetrable Skin), Description (Description)
-{
-Gives armor bonus and reflects meele attacks.
 }
 
 STRING 12468
@@ -4726,7 +4762,7 @@ Senbons infused with fire. Heat can be felt radiating from this weapon.|n|cff32c
 }
 
 STRING 12649
-// Items: ratc (|cffff0000Legendary Weapon: Kyuubi's Chakra Cloak|r), Ubertip (Tooltip - Extended)
+// Items: I08M (|cffff0000Legendary Weapon: Kyuubi's Chakra Cloak|r), Ubertip (Tooltip - Extended)
 {
 The legendary Kyuubi's chakra cloak, inflicted with his fire power.|n|cff32cd32+1000 Chakra|n+180 Damage|n+130 Taijutsu|n- Immolation (passive, 150 damage + Taijutsu /2 normal in 300 AoE)|r|n|cffff0000Item Type: Weapon|r
 }
@@ -4815,12 +4851,6 @@ STRING 12999
 Sanbi's Hardened Skin
 }
 
-STRING 13000
-// Items: I055 (Sanbi's Impenetrable Skin), Tip (Tooltip - Basic)
-{
-Purchase Sanbi's Skin [|cffffcc00W|r]
-}
-
 STRING 13026
 // Items: I05D (S-Rank Mission), Description (Description)
 {
@@ -4863,12 +4893,6 @@ STRING 13148
 |cffffcc00Requires:|r|n- Ashura Essence|n- Indra Essence
 }
 
-STRING 13269
-// Items: I05Q (|cffa19e96Juubi's Skin|r), Description (Description)
-{
-Gives armor bonus and reflects meele attacks.
-}
-
 STRING 13270
 // Items: I055 (Sanbi's Impenetrable Skin), Name (Name)
 {
@@ -4876,13 +4900,13 @@ Sanbi's Impenetrable Skin
 }
 
 STRING 13288
-// Items: rat6 (|cfffffc00Legendary Weapon: Raijin no Ken|r), Ubertip (Tooltip - Extended)
+// Items: I08N (|cfffffc00Legendary Weapon: Raijin no Ken|r), Ubertip (Tooltip - Extended)
 {
 The legendary Raijin no Ken, created by Senju Tobirama. It has the ability to cut space-time.|n|cff32cd32+1500 HP|n+200 Damage|n+130 Ninjutsu|n- Space-Time Jutsu (active, rng: 800, cd: 30s):|n   Teleport to location instantly|n|cffff0000Item Type: Weapon|r
 }
 
 STRING 13289
-// Items: rat9 (|cff53a4ffLegendary Weapon: Haku's Senbons|r), Ubertip (Tooltip - Extended)
+// Items: I08J (|cff53a4ffLegendary Weapon: Haku's Senbons|r), Ubertip (Tooltip - Extended)
 {
 The legendary Ice Senbons, inflicted with his unique Ice Ninjutsu.|n|cff32cd32+1500 HP|n+200 damage|n+130 Genjutsu|n- Sudden Ice Storm (active, rng: 700, cd: 30s):|n   Stun enemies in line|n|cffff0000Item Type: Weapon|r
 }
@@ -5392,7 +5416,7 @@ STRING 14030
 }
 
 STRING 14085
-// Items: sman (Scroll of Chakra), Description (Description)
+// Items: I05O (Scroll of Chakra), Description (Description)
 {
 Restores |cff32cd321000|r chakra points around the user.
 }
@@ -5506,31 +5530,31 @@ Recover 5% of your base health
 }
 
 STRING 14477
-// Items: odef (|cffc600ffSpirit of the Darkness|r), Tip (Tooltip - Basic)
+// Items: I07L (|cffc600ffSpirit of the Darkness|r), Tip (Tooltip - Basic)
 {
 Purchase |cffc600ffSpirit of the Darkness|r [|cffffcc00D|r]
 }
 
 STRING 14478
-// Items: ofir (|cffff0000Spirit of Fire|r), Tip (Tooltip - Basic)
+// Items: I081 (|cffff0000Spirit of Fire|r), Tip (Tooltip - Basic)
 {
 Purchase |cffff0000Spirit of Fire|r [|cffffcc00A|r]
 }
 
 STRING 14479
-// Items: oven (|cff8b4600Spirit of Earth|r), Tip (Tooltip - Basic)
+// Items: I06Q (|cff8b4600Spirit of Earth|r), Tip (Tooltip - Basic)
 {
 Purchase |cff8b4600Spirit of Earth|r [|cffffcc00E|r]
 }
 
 STRING 14480
-// Items: oli2 (|cfffffc00Spirit of Thunder|r), Tip (Tooltip - Basic)
+// Items: I083 (|cfffffc00Spirit of Thunder|r), Tip (Tooltip - Basic)
 {
 Purchase |cfffffc00Spirit of Thunder|r [|cffffcc00R|r]
 }
 
 STRING 14481
-// Items: ofro (|cff53a4ffSpirit of Water|r), Tip (Tooltip - Basic)
+// Items: I05Z (|cff53a4ffSpirit of Water|r), Tip (Tooltip - Basic)
 {
 Purchase |cff53a4ffSpirit of Water|r [|cffffcc00W|r]
 }
@@ -5626,13 +5650,13 @@ Purchase |cffFFFFE0Spirit of Light|r [|cffffcc00F|r]
 }
 
 STRING 14663
-// Items: rat6 (|cfffffc00Legendary Weapon: Raijin no Ken|r), Name (Name)
+// Items: I08N (|cfffffc00Legendary Weapon: Raijin no Ken|r), Name (Name)
 {
 |cfffffc00Legendary Weapon: Raijin no Ken|r
 }
 
 STRING 14664
-// Items: rat9 (|cff53a4ffLegendary Weapon: Haku's Senbons|r), Name (Name)
+// Items: I08J (|cff53a4ffLegendary Weapon: Haku's Senbons|r), Name (Name)
 {
 |cff53a4ffLegendary Weapon: Haku's Senbons|r
 }
@@ -5848,7 +5872,7 @@ C
 }
 
 STRING 15434
-// Items: desc (|cff5d237cEight-Headed Serpent|r), Name (Name)
+// Items: I08K (|cff5d237cEight-Headed Serpent|r), Name (Name)
 {
 |cff5d237cEight-Headed Serpent|r
 }
@@ -5956,7 +5980,7 @@ STRING 15690
 }
 
 STRING 15691
-// Items: rhth (|cff106246The Heaven Stone|r), Name (Name)
+// Items: I08D (|cff106246The Heaven Stone|r), Name (Name)
 {
 |cff106246The Heaven Stone|r
 }
@@ -6022,7 +6046,7 @@ Recipe: Kohaku no Johei
 }
 
 STRING 15951
-// Items: rwiz (|cffffcc00ANBU Mask|r), Description (Description)
+// Items: I08G (|cffffcc00ANBU Mask|r), Description (Description)
 {
 A mask only used by those qualified as ANBU.|cff32cd32|n+20 all stats|n- Killing units will give 90/(gold per minute/1000) additional gold if gold per minute is below 2200 and killing heroes provides 200 additional gold (passive)|n- Assassin Focus (passive): Every 120s target a random enemy hero, pinging its location every 30s. Killing him will provide 1000 additional gold. |n|cffec0f25Item Type:Support|r
 }
@@ -6040,14 +6064,14 @@ A battle kunai used by taijutsu heroes.|n|cff32cd32+100 X Weapon-Level chakra po
 }
 
 STRING 16216
-// Items: frgd (Uchiha Sword), Ubertip (Tooltip - Extended)
+// Items: I08H (Uchiha Sword), Ubertip (Tooltip - Extended)
 {
 |cff32cd32+35 damage
 +5 all stats|n|cffff0000Item Type: Weapon|r
 }
 
 STRING 16217
-// Items: frgd (Uchiha Sword), Description (Description)
+// Items: I08H (Uchiha Sword), Description (Description)
 {
 |cff32cd32+35 damage
 +5 all stats|n|cffff0000Item Type: Weapon|r
@@ -6090,7 +6114,7 @@ C
 }
 
 STRING 16272
-// Items: gcel (|cff106246The Heaven Sword|r), Ubertip (Tooltip - Extended)
+// Items: I08I (|cff106246The Heaven Sword|r), Ubertip (Tooltip - Extended)
 {
 Kusanagi Sword in its true form. Legend says it was made by the Rikuudou Sennin.|n|cff32cd32+50 all stats|n+230 damage|n - Time Travel (active, cd: 60s):|n   Resets the cooldown of the last used ability. It can reset max 40s of cooldown.|n- It has 20% chance to deal 1 x Taijutsu + 1.5 x Ninjutsu + 2 x Genjutsu to surrounded enemies (passive)|n|cffff0000Item Type: Weapon|r
 }
@@ -6192,13 +6216,13 @@ STRING 16463
 }
 
 STRING 16474
-// Items: pinv (Substitution Wood), Description (Description)
+// Items: I05X (Substitution Wood), Description (Description)
 {
 Replace your body with a block of wood, making you invunerable for |cff32cd322|r seconds. Also dispel all your buffs and grants vision in an area of 1600.|n|cff87ceebCooldown: 30s|r
 }
 
 STRING 16584
-// Items: brag (|cffb04453Akatsuki Ring|r), Ubertip (Tooltip - Extended)
+// Items: I08F (|cffb04453Akatsuki Ring|r), Ubertip (Tooltip - Extended)
 {
 Ring used by Akatsuki members.|n|cff32cd32+15 all stats|n+50 damage|n+6 armor|n|cffff0000Item Type: Support|r
 }
@@ -6210,7 +6234,7 @@ STRING 16614
 }
 
 STRING 16648
-// Items: gcel (|cff106246The Heaven Sword|r), Description (Description)
+// Items: I08I (|cff106246The Heaven Sword|r), Description (Description)
 {
 Kusanagi Sword in its true form. Legend says it was made by the Rikuudou Sennin.|n|cff32cd32+50 all stats|n+230 damage|n - Time Travel (active, cd: 60s):|n   Resets the cooldown of the last used ability. It can reset max 40s of cooldown.|n- It has 20% chance to deal 1 x Taijutsu + 1.5 x Ninjutsu + 2 x Genjutsu to surrounded enemies (passive)|n|cffff0000Item Type: Weapon|r
 }
@@ -6225,15 +6249,6 @@ STRING 16983
 // Items: I02C (|cffc600ffDarkness Senbons|r), Description (Description)
 {
 Senbons infused with the darkness. It helps the carrier to avoid some spells.|n|cff32cd32+600 hit points|n+60 genjutsu points|n-Spell Shield (passive, cd: 50s)|n-Corrosive Attack (passive, -10 armor)|n|cffff0000Item-Type: Weapon|r
-}
-
-STRING 16984
-// Items: I03P (|cffc600ffOtokage Robe|r), Ubertip (Tooltip - Extended)
-{
-Cloth worn by the most important ninja of Otogakure.|n|cff32cd32+70 all stats
-+100 damage
-+50 armor
-- Reduce damage taken from normal jutsus by 50% |cffff0000(does not stack)|cff32cd32|n- Corrosive Attack (passive, -10 armor)|n- Magic Shield (passive, cd: 50s)|n- Corrosion Aura (-10 armor to nearby enemies)|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 16985
@@ -6339,7 +6354,7 @@ S-Rank Mission
 }
 
 STRING 17492
-// Items: tkno (Ichiraku's Special Recipe), Tip (Tooltip - Basic)
+// Items: I084 (Ichiraku's Special Recipe), Tip (Tooltip - Basic)
 {
 Buy Ichiraku's Special Recipe [|cffffcc00F|r]
 }
@@ -6351,7 +6366,7 @@ Purchase |cff2e86c1Chakra Blades|r [|cffffcc00Z|r]
 }
 
 STRING 17504
-// Items: tkno (Ichiraku's Special Recipe), Name (Name)
+// Items: I084 (Ichiraku's Special Recipe), Name (Name)
 {
 Ichiraku's Special Recipe
 }
@@ -6369,7 +6384,7 @@ J
 }
 
 STRING 17792
-// Items: srbd (|cfffe0000Triple-Bladed Scythe|r), Name (Name)
+// Items: I08L (|cfffe0000Triple-Bladed Scythe|r), Name (Name)
 {
 |cfffe0000Triple-Bladed Scythe|r
 }
@@ -6399,19 +6414,19 @@ Purchase Mission Reward
 }
 
 STRING 18013
-// Items: srbd (|cfffe0000Triple-Bladed Scythe|r), Tip (Tooltip - Basic)
+// Items: I08L (|cfffe0000Triple-Bladed Scythe|r), Tip (Tooltip - Basic)
 {
 Purchase |cfffe0000Triple-Bladed Scythe|r [|cffffcc00S|r]
 }
 
 STRING 18014
-// Items: shar (|cffff0000Yata Mirror|r), Name (Name)
+// Items: I082 (|cffff0000Yata Mirror|r), Name (Name)
 {
 |cffff0000Yata Mirror|r
 }
 
 STRING 18015
-// Items: shar (|cffff0000Yata Mirror|r), Tip (Tooltip - Basic)
+// Items: I082 (|cffff0000Yata Mirror|r), Tip (Tooltip - Basic)
 {
 Purchase |cffff0000Yata Mirror|r [|cffffcc00X|r]
 }
@@ -6459,25 +6474,25 @@ The legendary kusanagi infused with fire. What is the power?|n|cff32cd32+500 cha
 }
 
 STRING 19773
-// Items: rde4 (Jade of Susano'o), Ubertip (Tooltip - Extended)
+// Items: I086 (Jade of Susano'o), Ubertip (Tooltip - Extended)
 {
 A powerful item that contains a mystic power. Legend says it can steal enemy souls.|n|cff32cd32+150 HP|n+200 damage|n+20 all stats|n - Get 1% HP and MP for every two killed units.|n- Corrosive Attack (-10 armor)|n- Life Steal (50% from normal attacks, 10% from spells)|n|cffff0000Item Type: Support|r
 }
 
 STRING 19774
-// Items: rde4 (Jade of Susano'o), Description (Description)
+// Items: I086 (Jade of Susano'o), Description (Description)
 {
 A powerful item that contains a mystic power. Legend says it can steal enemy souls.|n|cff32cd32+150 HP|n+200 damage|n+20 all stats|n - Get 1% HP and MP for every two killed units.|n- Corrosive Attack (-10 armor)|n- Life Steal (50% from normal attacks, 10% from spells)|n|cffff0000Item Type: Support|r
 }
 
 STRING 19776
-// Items: rhth (|cff106246The Heaven Stone|r), Ubertip (Tooltip - Extended)
+// Items: I08D (|cff106246The Heaven Stone|r), Ubertip (Tooltip - Extended)
 {
 Same with The Heaven Sword and Heaven 8 Mirror, it is one of the three strongest items. Legend says it can steal enemy souls.|n|cff32cd32+300 attack|n+40 all stats|n+300 HP|n+50% attack speed|n- Get 2% HP and MP for each killed unit|n- Corrosive attack (-25 armor)|n- Life Steal (50% from normals, 10% from spells)|n- Soul Purification (active, cd: 70s): Remove all your debuffs and enemies' buffs around you|n|cffff0000Item Type: Support|r
 }
 
 STRING 20069
-// Items: rhth (|cff106246The Heaven Stone|r), Description (Description)
+// Items: I08D (|cff106246The Heaven Stone|r), Description (Description)
 {
 Same with The Heaven Sword and Heaven 8 Mirror, it is one of the three strongest items. Legend says it can steal enemy souls.|n|cff32cd32+300 attack|n+40 all stats|n+300 HP|n+50% attack speed|n- Get 2% HP and MP for each killed unit|n- Corrosive attack (-25 armor)|n- Life Steal (50% from normals, 10% from spells)|n- Soul Purification (active, cd: 70s): Remove all your debuffs and enemies' buffs around you|n|cffff0000Item Type: Support|r
 }
@@ -6507,13 +6522,13 @@ A legendary item which allows you to revive in a fixed time of |cff87ceeb20s|r a
 }
 
 STRING 20165
-// Items: pomn (Ninja Net), Ubertip (Tooltip - Extended)
+// Items: I05N (Ninja Net), Ubertip (Tooltip - Extended)
 {
 Traps the enemy and keeps them from moving for |cff32cd325|r seconds. This removes any speed buffs that the target has and prevents them from casting any shoes abilities for 10s.|n|cff87ceebCooldown: 50s|r
 }
 
 STRING 20166
-// Items: pomn (Ninja Net), Description (Description)
+// Items: I05N (Ninja Net), Description (Description)
 {
 Traps the enemy and keeps them from moving for |cff32cd325|r seconds. This removes any speed buffs that the target has and prevents them from casting any shoes abilities for 10s.|n|cff87ceebCooldown: 50s|r
 }
@@ -6597,7 +6612,7 @@ A mask only used by those qualified as Kumogakure ANBU.|cff32cd32|n+20 all stats
 }
 
 STRING 20449
-// Items: brag (|cffb04453Akatsuki Ring|r), Description (Description)
+// Items: I08F (|cffb04453Akatsuki Ring|r), Description (Description)
 {
 Ring used by Akatsuki members.|n|cff32cd32+15 all stats|n+50 damage|n+6 armor|n|cffff0000Item Type: Support|r
 }
@@ -6626,41 +6641,8 @@ STRING 20932
 |cffffcc00Requires:|r|n- Jade of Susano'o|n 
 }
 
-STRING 20945
-// Items: I003 (Jounin Cloth), Ubertip (Tooltip - Extended)
-{
-A cloth given to the jounin of the village.|n|cff32cd32+30 all stats|n+30 damage|n+15 armor|n- Reduce damage taken from normal jutsus by 15% |cffff0000(does not stack)|cff32cd32|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 20946
-// Items: I004 (Genin Cloth), Ubertip (Tooltip - Extended)
-{
-A cloth given to graduated children on Ninja Academy.|n|cff32cd32+10 all stats|n+10 damage|n+5 armor|n- Reduce damage taken from normal jutsus by 5% |cffff0000(does not stack)|cff32cd32|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 20951
-// Items: I005 (Chunnin Cloth), Ubertip (Tooltip - Extended)
-{
-A cloth given to successful ninjas of the Chunnin Exam.|n|cff32cd32+20 all stats|n+20 damage|n+10 armor|n - Reduce damage taken from normal jutsus by 10% |cffff0000(does not stack)|cff32cd32|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 20956
-// Items: I01V (Sannin Cloth), Ubertip (Tooltip - Extended)
-{
-Cloth worn by the legendary sannin.|n|cff32cd32+50 all stats|n+50 damage|n+25 armor|n- Reduce damage taken from normal jutsus by 25% |cffff0000(does not stack)|cff32cd32|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 20957
-// Items: I038 (|cffff0000Kage Robe|r), Ubertip (Tooltip - Extended)
-{
-Cloth worn by the most important ninja of the village.|n|cff32cd32+70 all stats
-+100 damage
-+50 armor
-- Reduce damage taken from normal jutsus by 50% |cffff0000(does not stack)|cff32cd32|n|cffff0000Item Type: Cloth|r
-}
-
 STRING 20992
-// Items: pinv (Substitution Wood), Ubertip (Tooltip - Extended)
+// Items: I05X (Substitution Wood), Ubertip (Tooltip - Extended)
 {
 Replace your body with a block of wood, making you invunerable for |cff32cd322|r seconds. Also dispel all your buffs and grants vision in an area of 1600.|n|cff87ceebCooldown: 30s|r
 }
@@ -6720,37 +6702,37 @@ A battle kunai used by taijutsu heroes.|n|cff32cd32+100 X Weapon-Level chakra po
 }
 
 STRING 21478
-// Items: stel (Scroll of Teleportation), Name (Name)
+// Items: I08B (Scroll of Teleportation), Name (Name)
 {
 Scroll of Teleportation
 }
 
 STRING 21479
-// Items: stel (Scroll of Teleportation), Tip (Tooltip - Basic)
+// Items: I08B (Scroll of Teleportation), Tip (Tooltip - Basic)
 {
 Purchase Scroll of Teleportation [|cffffcc00A|r]
 }
 
 STRING 21480
-// Items: ckng (Scroll of Kage Bunshin), Name (Name)
+// Items: I08A (Scroll of Kage Bunshin), Name (Name)
 {
 Scroll of Kage Bunshin
 }
 
 STRING 21481
-// Items: ckng (Scroll of Kage Bunshin), Tip (Tooltip - Basic)
+// Items: I08A (Scroll of Kage Bunshin), Tip (Tooltip - Basic)
 {
 Purchase Scroll of Kage Bunshin [|cffffcc00S|r]
 }
 
 STRING 21482
-// Items: ratf (Scroll of Invisibility), Name (Name)
+// Items: I089 (Scroll of Invisibility), Name (Name)
 {
 Scroll of Invisibility
 }
 
 STRING 21483
-// Items: ratf (Scroll of Invisibility), Tip (Tooltip - Basic)
+// Items: I089 (Scroll of Invisibility), Tip (Tooltip - Basic)
 {
 Purchase Scroll of Invisibility [|cffffcc00D|r]
 }
@@ -6825,15 +6807,6 @@ STRING 21551
 // Items: I07D (|cff8b4600Iwagakure ANBU Mask|r), Name (Name)
 {
 |cff8b4600Iwagakure ANBU Mask|r
-}
-
-STRING 21563
-// Items: I03K (|cffff0000Hokage Robe|r), Ubertip (Tooltip - Extended)
-{
-Cloth worn by the most important ninja of Konoha.|n|cff32cd32+70 all stats|n+30 taijutsu
-+100 damage
-+50 armor
-- Reduce damage taken from normal jutsus by 50% |cffff0000(does not stack)|cff32cd32|n- Inspiration Aura (15 stats to all nearby allies)|n- Splash Damage (passive, 40 damage bonus in 300 radius)|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 21573
@@ -6993,13 +6966,13 @@ A powerful ninja weapon ideal for destroying buildings.|n|n|cffffcc00Requires:|r
 }
 
 STRING 22015
-// Items: pmna (|cff2d96d9Stone of Chakra|r), Ubertip (Tooltip - Extended)
+// Items: I08E (|cff2d96d9Stone of Chakra|r), Ubertip (Tooltip - Extended)
 {
 Increases user chakra|cff87ceeb|n+500 chakra|n|cffff0000Item Type: Support|r
 }
 
 STRING 22016
-// Items: pmna (|cff2d96d9Stone of Chakra|r), Description (Description)
+// Items: I08E (|cff2d96d9Stone of Chakra|r), Description (Description)
 {
 Increases user chakra|cff87ceeb|n+500 chakra|n|cffff0000Item Type: Support|r
 }
@@ -7047,13 +7020,13 @@ A mask only used by those qualified as Light ANBU.|cff32cd32|n+40 all stats|n+50
 }
 
 STRING 22039
-// Items: modt (Bingo Book), Ubertip (Tooltip - Extended)
+// Items: I085 (Bingo Book), Ubertip (Tooltip - Extended)
 {
 A list of the most dangerous ninjas. |n|cff32cd32+10 all stats|n- Killing units will give (45.0 / (gold per minute / 1000)) additional bounty if your gold per minute is below 2000 (passive)|n|cffff0000Item Type: Support|r
 }
 
 STRING 22042
-// Items: modt (Bingo Book), Description (Description)
+// Items: I085 (Bingo Book), Description (Description)
 {
 A list of the most dangerous ninjas. |n|cff32cd32+10 all stats|n- Killing units will give (45.0 / (gold per minute / 1000)) additional bounty if your gold per minute is below 2000 (passive)|n|cffff0000Item Type: Support|r
 }
@@ -7214,27 +7187,6 @@ STRING 22624
 A special made metal that can be infused with chakra through chakra flow or elemental chakra, to produce added effects.|n|cff32cd32+20 to all stats|n+150 damage|n|cff87ceeb- Chakra Blades (active, cd: 40s)|nDeals (taijutsu+ninjutsu+genjutsu) x 2 in line|n|cffff0000Item Type: Weapon|r
 }
 
-STRING 22662
-// Items: I03N (|cffffff00Raikage Robe|r), Ubertip (Tooltip - Extended)
-{
-Cloth worn by the most important ninja of Kumogakure.|n|cff32cd32+70 all stats|n+30 ninjutsu
-+100 damage
-+50 armor
-- Reduce damage taken from normal jutsus by 50% |cffff0000(does not stack)|cff32cd32|n- 20% movespeed aura to all allies in 600 range|n- Chain Lightning (passive, 20% chance to deal 300 damage)|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 22675
-// Items: I05H (Medical Ninja Cloth), Ubertip (Tooltip - Extended)
-{
-A cloth used by all medical ninjas. It greatly enhances medical abilities.|n|cff32cd32+20 all stats|n+20 armor|n- Reduce damage taken from normal jutsus by 10% |cffff0000(does not stack)|cff32cd32|n- Increase all healing effects by 50% (passive)|n- Heal (active, 60s): Recovers 500 hit points over 5s|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 22676
-// Items: I05I (|cff6bfe62Medical Ninja Set|r), Ubertip (Tooltip - Extended)
-{
-A set of medical ninja items used to help shinobis in battle.|n|cff32cd32+30 all stats|n+30 armor|n- Reduce damage taken from normal jutsus by 25% |cffff0000(does not stack)|cff32cd32|n- Increase all healing effects by 50% (passive, area)|n- Medical Regeneration (passive): Increase all nearby allies within 900 radius movement speed by 15% and life regeneration by 300%|n- Greater Medical Sphere (active, 150s): Recovers 3% hp of all allies around 600 radius per second during 10 seconds and reduces damage taken by 50%|n|cffff0000Item Type: Cloth|r|n|cffff0000Careful: Only one member per team can carry it|r
-}
-
 STRING 22780
 // Items: I02Y (|cff53a4ffChilling Sword of Totsuka|r), Description (Description)
 {
@@ -7355,42 +7307,6 @@ STRING 23245
 The legendary sword owned by Itachi. It has the ability to seal enemy chakra.|n|cff32cd32+100 all stats|n- Shatter Soul (active, rng: 300, cd: 40s):|n   Silence the target for 7 seconds. |cffff0000Can't be dispelled|r|n|cffff0000Item Type: Weapon|r
 }
 
-STRING 23251
-// Items: I077 (|cffb04453Akatsuki Leader Set|r), Ubertip (Tooltip - Extended)
-{
-A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 hp|n+40 to all stats|n+30 taijustu|n- Assassin Focus (active, Grants +15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 23252
-// Items: I077 (|cffb04453Akatsuki Leader Set|r), Description (Description)
-{
-A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 hp|n+40 to all stats|n+30 taijustu|n- Assassin Focus (active, Grants +15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 23253
-// Items: I078 (|cffb04453Akatsuki Leader Set|r), Ubertip (Tooltip - Extended)
-{
-A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 hp|n+40 to all stats|n+30 Ninjutsu|n- Assassin Focus (active, Grants +15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 23367
-// Items: I078 (|cffb04453Akatsuki Leader Set|r), Description (Description)
-{
-A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 hp|n+40 to all stats|n+30 Ninjutsu|n- Assassin Focus (active, Grants +15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 23368
-// Items: I079 (|cffb04453Akatsuki Leader Set|r), Ubertip (Tooltip - Extended)
-{
-A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 hp|n+40 to all stats|n+30 Genjutsu|n- Assassin Focus (active, Grants +15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cffff0000Item Type: Cloth|r
-}
-
-STRING 23369
-// Items: I079 (|cffb04453Akatsuki Leader Set|r), Description (Description)
-{
-A set used by The Akatsuki Leader. Allows you to become invisible.|n|cff32cd32+500 hp|n+40 to all stats|n+30 Genjutsu|n- Assassin Focus (active, Grants +15 stats for 15 seconds and a speed boost for 7 seconds after becoming visible)|n- Increased movespeed by 10% (passive)|n- True vision (passive)|n|cffff0000Item Type: Cloth|r
-}
-
 STRING 23372
 // Items: I00H (|cffe9a144South Ring|r), Ubertip (Tooltip - Extended)
 {
@@ -7422,49 +7338,49 @@ Explosive Kunai infused with the earth. The carrier feels stronger while holding
 }
 
 STRING 23381
-// Items: odef (|cffc600ffSpirit of the Darkness|r), Ubertip (Tooltip - Extended)
+// Items: I07L (|cffc600ffSpirit of the Darkness|r), Ubertip (Tooltip - Extended)
 {
 |cff32cd32+30 damage|n- Corrosive Attack (passive, -10 armor)|n- Magic Shield (passive, cd: 100s)|n
 }
 
 STRING 23382
-// Items: odef (|cffc600ffSpirit of the Darkness|r), Description (Description)
+// Items: I07L (|cffc600ffSpirit of the Darkness|r), Description (Description)
 {
 |cff32cd32+30 damage|n- Corrosive Attack (passive, -10 armor)|n- Magic Shield (passive, cd: 100s)|n
 }
 
 STRING 23383
-// Items: ofir (|cffff0000Spirit of Fire|r), Ubertip (Tooltip - Extended)
+// Items: I081 (|cffff0000Spirit of Fire|r), Ubertip (Tooltip - Extended)
 {
 |cff32cd32+40 damage|n+30 to taijutsu|n- Splash Attack (passive, 40 damage bonus in 300 radius)|n
 }
 
 STRING 23384
-// Items: ofir (|cffff0000Spirit of Fire|r), Description (Description)
+// Items: I081 (|cffff0000Spirit of Fire|r), Description (Description)
 {
 |cff32cd32+40 damage|n+30 to taijutsu|n- Splash Attack (passive, 40 damage bonus in 300 radius)|n
 }
 
 STRING 23385
-// Items: oven (|cff8b4600Spirit of Earth|r), Ubertip (Tooltip - Extended)
+// Items: I06Q (|cff8b4600Spirit of Earth|r), Ubertip (Tooltip - Extended)
 {
 |cff32cd32+30 damage|n+20 to taijutsu|n- Bash (passive, 25% to stun for 1 second)|n
 }
 
 STRING 23386
-// Items: oven (|cff8b4600Spirit of Earth|r), Description (Description)
+// Items: I06Q (|cff8b4600Spirit of Earth|r), Description (Description)
 {
 |cff32cd32+30 damage|n+20 to taijutsu|n- Bash (passive, 25% to stun for 1 second)|n
 }
 
 STRING 23387
-// Items: oli2 (|cfffffc00Spirit of Thunder|r), Ubertip (Tooltip - Extended)
+// Items: I083 (|cfffffc00Spirit of Thunder|r), Ubertip (Tooltip - Extended)
 {
 |cff32cd32+30 damage|n+30 to ninjutsu|n- Chain Lightning (passive, 5% to deal 300 damage)|n
 }
 
 STRING 23388
-// Items: oli2 (|cfffffc00Spirit of Thunder|r), Description (Description)
+// Items: I083 (|cfffffc00Spirit of Thunder|r), Description (Description)
 {
 |cff32cd32+30 damage|n+30 to ninjutsu|n- Chain Lightning (passive, 5% to deal 300 damage)|n
 }
@@ -7482,7 +7398,7 @@ Orochimaru's Akatsuki Ring.|n|cff32cd32+25 all stats|n+Reduce death timer by 15 
 }
 
 STRING 23416
-// Items: ofro (|cff53a4ffSpirit of Water|r), Ubertip (Tooltip - Extended)
+// Items: I05Z (|cff53a4ffSpirit of Water|r), Ubertip (Tooltip - Extended)
 {
 |cff32cd32+30 damage|n+30 to genjutsu|n- Chilling Attack (passive, 50% slow, last 1 second)|n
 }
@@ -7494,7 +7410,7 @@ Upgrade Chakra Blade
 }
 
 STRING 23711
-// Items: pmna (|cff2d96d9Stone of Chakra|r), Tip (Tooltip - Basic)
+// Items: I08E (|cff2d96d9Stone of Chakra|r), Tip (Tooltip - Basic)
 {
 Purchase |cff2d96d9Stone of Chakra|r [|cffffcc00W|r]
 }
@@ -7584,15 +7500,9 @@ Remove all positive buffs from nearby enemies and suck them to your position.|n|
 }
 
 STRING 23765
-// Items: I07A (|cffff0000Konohagakure ANBU Mask|r), Tip (Tooltip - Basic)
+// Items: I07B (|cff53a4ffKirigakure ANBU Mask|r), Tip (Tooltip - Basic)
 {
 Purchase Anbu Mask(|cffffcc00A|r)
-}
-
-STRING 23766
-// Items: I07F (|cffc600ffOtogakure ANBU Mask|r), Hotkey (Hotkey)
-{
-A
 }
 
 STRING 23769
@@ -7602,15 +7512,9 @@ Remove all positive buffs from nearby enemies and suck them to your position.|n|
 }
 
 STRING 23770
-// Items: I07B (|cff53a4ffKirigakure ANBU Mask|r), Tip (Tooltip - Basic)
+// Items: I07C (|cfffffc00Kumogakure ANBU Mask|r), Tip (Tooltip - Basic)
 {
 Purchase Anbu Mask(|cffffcc00A|r)
-}
-
-STRING 23771
-// Items: I07G (|cffFFFFE0Sage ANBU Mask|r), Hotkey (Hotkey)
-{
-A
 }
 
 STRING 23772
@@ -7620,7 +7524,7 @@ STRING 23772
 }
 
 STRING 23775
-// Items: I07C (|cfffffc00Kumogakure ANBU Mask|r), Tip (Tooltip - Basic)
+// Items: I07D (|cff8b4600Iwagakure ANBU Mask|r), Tip (Tooltip - Basic)
 {
 Purchase Anbu Mask(|cffffcc00A|r)
 }
@@ -7638,7 +7542,7 @@ Detach you and your target from your bodies, making you both immune to other pla
 }
 
 STRING 23780
-// Items: I07D (|cff8b4600Iwagakure ANBU Mask|r), Tip (Tooltip - Basic)
+// Items: I07E (|cffB0B0B0Sunagakure ANBU Mask|r), Tip (Tooltip - Basic)
 {
 Purchase Anbu Mask(|cffffcc00A|r)
 }
@@ -7650,19 +7554,19 @@ Recipe: Shichiseiken [|cffffcc00R|r]
 }
 
 STRING 23785
-// Items: I07E (|cffB0B0B0Sunagakure ANBU Mask|r), Tip (Tooltip - Basic)
-{
-Purchase Anbu Mask(|cffffcc00A|r)
-}
-
-STRING 23790
 // Items: I07F (|cffc600ffOtogakure ANBU Mask|r), Tip (Tooltip - Basic)
 {
 Purchase Anbu Mask(|cffffcc00A|r)
 }
 
-STRING 23795
+STRING 23790
 // Items: I07G (|cffFFFFE0Sage ANBU Mask|r), Tip (Tooltip - Basic)
+{
+Purchase Anbu Mask(|cffffcc00A|r)
+}
+
+STRING 23795
+// Items: I08G (|cffffcc00ANBU Mask|r), Tip (Tooltip - Basic)
 {
 Purchase Anbu Mask(|cffffcc00A|r)
 }
@@ -7745,12 +7649,6 @@ STRING 25369
 A stone which is capable of absorbing yang energy of nearby enemies.|n|cff32cd32+40 all stats|n- Subjugation of Earth (active, cooldown: 80s, range: 800): Set the target max health as if its main attribute were genjutsu for 10s|n- Scorched Earth Aura: Any enemy healing is converted as life points to you (passive)|n|cffff0000Item Type: Support|r
 }
 
-STRING 25462
-// Items: I073 (Kohaku no Johei), Ubertip (Tooltip - Extended)
-{
-Dispel negative buffs from nearby allies, and pull enemies for 4s, sucking 5% of chakra/second. If they get pulled for more than 2s, they get esnared for 2s.|n|cff87ceebCooldown: 40s.|r
-}
-
 STRING 25465
 // Items: I00Q (|cff53af95Blue-Green Ring|r), Ubertip (Tooltip - Extended)
 {
@@ -7773,14 +7671,6 @@ STRING 25635
 // Items: I010 (|cffa1b9d5North Ring|r), Ubertip (Tooltip - Extended)
 {
 Kakuzu's Akatsuki Ring.|n|cff32cd32+25 all stats|n+1000 gold from kills|n(Hero Passive)+1000 gold from kills with Kaukuzu's R
-}
-
-STRING 25639
-// Items: I02Z (Sage Robe), Ubertip (Tooltip - Extended)
-{
-Cloth worn by the Rikuudou Sennin himself.|n|cff32cd32+90 all stats|n+100 damage
-+50 armor
-- Reduce damage taken from normal jutsus by 50% |cffff0000(does not stack)|cff32cd32|n- Reduce damage taken by nearby allies by 30% (doesn't affect the user)|n|cffff0000Item Type: Cloth|r
 }
 
 STRING 25643
@@ -7904,13 +7794,13 @@ STRING 26211
 }
 
 STRING 26424
-// Items: ckng (Scroll of Kage Bunshin), Ubertip (Tooltip - Extended)
+// Items: I08A (Scroll of Kage Bunshin), Ubertip (Tooltip - Extended)
 {
 Make two bunshins of the caster.|n|cff32cd32+10 to all status|n- Kage Bunshin no Jutsu (active, cd: 20s. last 40s)|n|cffff0000Item Type: Support|r
 }
 
 STRING 26479
-// Items: ckng (Scroll of Kage Bunshin), Description (Description)
+// Items: I08A (Scroll of Kage Bunshin), Description (Description)
 {
 Make two bunshins of the caster.|n|cff32cd32+10 to all status|n- Kage Bunshin no Jutsu (active, cd: 20s. last 40s)|n|cffff0000Item Type: Support|r
 }
@@ -7970,7 +7860,7 @@ STRING 27054
 }
 
 STRING 27059
-// Items: ofro (|cff53a4ffSpirit of Water|r), Description (Description)
+// Items: I05Z (|cff53a4ffSpirit of Water|r), Description (Description)
 {
 |cff32cd32+30 damage|n+30 to genjutsu|n- Chilling Attack (passive, 50% slow, last 1 second)|n
 }
@@ -7985,30 +7875,6 @@ STRING 27062
 // Items: I02J (|cff56c9dbBook of Gelel|r), Name (Name)
 {
 |cff56c9dbBook of Gelel|r
-}
-
-STRING 27064
-// Items: I001 (|cffFFFFE0Senbons Dance|r), Description (Description)
-{
-A high-level ninja weapon. Release countless needles in an area.|n|cff32cd32Damage:|r |cff87ceeb7 x Genjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Casting range:|r 600|n|cff32cd32Area of Effect:|r 300|n|cff32cd32Cooldown:|r 50s|n|r|cffff0000Item Type: Ninja Weapon|r
-}
-
-STRING 27065
-// Items: I001 (|cffFFFFE0Senbons Dance|r), Ubertip (Tooltip - Extended)
-{
-A high-level ninja weapon. Release countless needles in an area.|n|cff32cd32Damage:|r |cff87ceeb7 x Genjutsu|r|n|cff32cd32Damage Type:|r Normal|n|cff32cd32Casting range:|r 600|n|cff32cd32Area of Effect:|r 300|n|cff32cd32Cooldown:|r 50s|n|r|cffff0000Item Type: Ninja Weapon|r
-}
-
-STRING 27066
-// Items: I011 (|cffec6200Explosive Kunai|r), Description (Description)
-{
-A high-level ninja weapon. Throws out a kunai filled with explosive tags.|n|cff32cd32Damage:|r |cff87ceeb7 x Taijutsu |n|cff32cd32Casting range:|r 800|n|cff32cd32Area of Effect:|r 400|n|cff32cd32Cooldown:|r 50s|n|r|cffff0000Item Type: Ninja Weapon|r
-}
-
-STRING 27067
-// Items: I011 (|cffec6200Explosive Kunai|r), Ubertip (Tooltip - Extended)
-{
-A high-level ninja weapon. Throws out a kunai filled with explosive tags.|n|cff32cd32Damage:|r |cff87ceeb7 x Taijutsu |n|cff32cd32Casting range:|r 800|n|cff32cd32Area of Effect:|r 400|n|cff32cd32Cooldown:|r 50s|n|r|cffff0000Item Type: Ninja Weapon|r
 }
 
 STRING 27068
@@ -8126,13 +7992,13 @@ Konan's Akatsuki Ring.|n|cff32cd32+25 all stats|nPaper Link (active, cooldown: 6
 }
 
 STRING 27637
-// Items: desc (|cff5d237cEight-Headed Serpent|r), Ubertip (Tooltip - Extended)
+// Items: I08K (|cff5d237cEight-Headed Serpent|r), Ubertip (Tooltip - Extended)
 {
 A fearful item. It is the legendary eight-headed snake god focused into a stone. The user who has it has the power to rule the world.|n|cff32cd32+180 to all status|n+2500 hit points|n+100 armor|n- Reduce damage taken from normal jutsus by 50%|n- Critical strike (20%, 3 X All stats Magic damage)|n- Get 5% HP and MP for every killed unit|r|n|cffff0000Item Type: Weapon|r
 }
 
 STRING 27638
-// Items: desc (|cff5d237cEight-Headed Serpent|r), Description (Description)
+// Items: I08K (|cff5d237cEight-Headed Serpent|r), Description (Description)
 {
 A fearful item. It is the legendary eight-headed snake god focused into a stone. The user who has it has the power to rule the world.|n|cff32cd32+180 to all status|n+2500 hit points|n+100 armor|n- Reduce damage taken from normal jutsus by 50%|n- Critical strike (20%, 3 X All stats Magic damage)|n- Get 5% HP and MP for every killed unit|r|n|cffff0000Item Type: Weapon|r
 }
